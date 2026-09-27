@@ -251,6 +251,15 @@ export function MapView({
       map.on("mouseleave", "habitations-points", () => {
         map.getCanvas().style.cursor = "";
       });
+
+      // Fit to habitations if not already fitted
+      if (!fittedRef.current) {
+        const b = boundsOf(habitations);
+        if (b) {
+          map.fitBounds(b, { padding: 50, maxZoom: 12, duration: 0 });
+          fittedRef.current = true;
+        }
+      }
     };
     if (map.isStyleLoaded()) apply();
     else map.once("load", apply);
