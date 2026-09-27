@@ -1,0 +1,161 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  admin
+  state_official
+  public_viewer
+}
+
+enum HazardType {
+  landslide
+  flood
+  coastal_erosion
+  cloudburst
+}
+
+enum Tier {
+  immediate
+  short_term
+  medium_term
+}
+
+model User {
+  id            String         @id @default(uuid())
+  email         String         @unique
+  passwordHash  String
+  role          Role
+  stateCode     String?
+  createdAt     DateTime       @default(now())
+  refreshTokens RefreshToken[]
+  auditEntries  AuditLog[]
+
+  @@map("users")
+}
+
+model RefreshToken {
+  id        String    @id @default(uuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash String    @unique
+  expiresAt DateTime
+  revokedAt DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([userId])
+  @@map("refresh_tokens")
+}
+
+model HazardZone {
+  id            String     @id @default(uuid())
+  hazardType    HazardType
+  severityScore Float
+  stateCode     String
+  districtCode  String
+  /// @db.Geometry(Polygon, 4326)
+  geom          Unsupported("geometry(Polygon,4326)")
+  createdAt     DateTime   @default(now())
+
+  @@index([stateCode])
+  @@index([districtCode])
+  @@map("hazard_zones")
+}
+
+model Habitation {
+  id                     String   @id @default(uuid())
+  name                   String
+  stateCode              String
+  districtCode           String
+  population             Int
+  kutchaHousingShare     Float    @default(0)
+  elderlyChildShare      Float    @default(0)
+  connectivityScore      Float    @default(50)
+  /// @db.Geometry(Point, 4326)
+  geom                   Unsupported("geometry(Point,4326)")
+  createdAt              DateTime @default(now())
+
+  exposure             HabitationExposure?
+  prioritizationResult PrioritizationResult?
+  disasterEvents       DisasterEvent[]
+  auditEntries         AuditLog[]
+
+  @@index([stateCode])
+  @@index([districtCode])
+  @@map("habitations")
+}
+
+model HabitationExposure {
+  habitationId    String     @id
+  habitation      Habitation @relation(fields: [habitationId], references: [id], onDelete: Cascade)
+  hazardScores    Json
+  vulnerabilityScore Float
+  exposureScore   Float
+  computedAt      DateTime   @default(now())
+
+  @@map("habitation_exposure")
+}
+
+model RelocationSite {
+  id                String   @id @default(uuid())
+  name              String
+  stateCode         String
+  districtCode      String
+  suitabilityScore  Float
+  capacityPersons   Int
+  subScores         Json
+  /// @db.Geometry(Polygon, 4326)
+  geom              Unsupported("geometry(Polygon,4326)")
+  createdAt         DateTime @default(now())
+
+  @@index([stateCode])
+  @@map("relocation_sites")
+}
+
+model DisasterEvent {
+  id           String     @id @default(uuid())
+  habitationId String
+  habitation   Habitation @relation(fields: [habitationId], references: [id], onDelete: Cascade)
+  hazardType   HazardType
+  eventDate    DateTime
+  severity     Float
+  source       String
+
+  @@index([habitationId])
+  @@map("disaster_events")
+}
+
+model PrioritizationResult {
+  habitationId    String     @id
+  habitation      Habitation @relation(fields: [habitationId], references: [id], onDelete: Cascade)
+  tier            Tier
+  priorityScore   Float
+  componentScores Json
+  suggestedSiteIds String[]
+  computedAt      DateTime   @default(now())
+
+  @@index([tier])
+  @@map("prioritization_results")
+}
+
+model AuditLog {
+  id            String     @id @default(uuid())
+  actorEmail    String
+  actorId       String?
+  actor         User?      @relation(fields: [actorId], references: [id])
+  action        String
+  habitationId  String
+  habitation    Habitation @relation(fields: [habitationId], references: [id], onDelete: Cascade)
+  previousTier  Tier
+  newTier       Tier?
+  justification String
+  timestamp     DateTime   @default(now())
+
+  @@index([habitationId])
+  @@map("audit_log")
+}

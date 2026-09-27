@@ -1,0 +1,61 @@
+{
+  "name": "bhoomi-suraksha-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run",
+    "ingest": "tsx scripts/ingest.ts",
+    "data:build": "python3 scripts/build_real_data.py",
+    "ingest:real": "tsx scripts/ingest-real.ts",
+    "score": "tsx scripts/score.ts",
+    "prioritize": "tsx scripts/prioritize.ts",
+    "ml:train": "python3 ./ml/train.py",
+    "ml:predict": "python3 ./ml/predict.py",
+    "seed:users": "tsx scripts/seedUsers.ts",
+    "migrate": "prisma migrate deploy",
+    "migrate:dev": "prisma migrate dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "argon2": "^0.41.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "onnxruntime-node": "^1.20.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1",
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/geojson": "^7946.0.14",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.10.2",
+    "@types/supertest": "^7.2.1",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "prisma": "^6.19.3",
+    "supertest": "^7.2.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.11"
+  },
+
+  "allowScripts": {
+    "@prisma/client@6.19.3": true,
+    "@prisma/engines@6.19.3": true,
+    "@scarf/scarf@1.4.0": true,
+    "argon2@0.41.1": true,
+    "esbuild@0.28.2": true,
+    "onnxruntime-node@1.29.0": true,
+    "prisma@6.19.3": true
+  }
+}

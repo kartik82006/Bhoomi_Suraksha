@@ -1,0 +1,38 @@
+{
+  "_comment": "Synthetic fixture standing in for zonal-statistics output from DEM (slope/elevation), IMD rainfall grids, GSI Bhukosh lithology, and land-cover ingestion (Phase 1). Not real hazard data — a fictional 'Demo District' in Uttarakhand. Factor scores are pre-normalized 0-100 as the AHP engine (Phase 2) expects.",
+  "zones": [
+    {
+      "id": "hz-landslide-1",
+      "hazardType": "landslide",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Demo District",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.42, 30.32], [78.46, 30.32], [78.46, 30.35], [78.42, 30.35], [78.42, 30.32]]]
+      },
+      "factors": { "slope": 95, "rainfall_intensity": 85, "lithology": 90, "distance_to_drainage": 70, "land_cover": 80 }
+    },
+    {
+      "id": "hz-flood-1",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Demo District",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.5, 30.28], [78.55, 30.28], [78.55, 30.31], [78.5, 30.31], [78.5, 30.28]]]
+      },
+      "factors": { "rainfall_intensity": 80, "distance_to_drainage": 90, "elevation": 60, "land_cover": 55, "soil_permeability": 50 }
+    },
+    {
+      "id": "hz-cloudburst-1",
+      "hazardType": "cloudburst",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Demo District",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.38, 30.36], [78.41, 30.36], [78.41, 30.39], [78.38, 30.39], [78.38, 30.36]]]
+      },
+      "factors": { "rainfall_intensity": 70, "slope": 55, "catchment_area": 60, "land_cover": 50 }
+    }
+  ]
+}

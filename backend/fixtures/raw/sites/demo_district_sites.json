@@ -1,0 +1,27 @@
+{
+  "_comment": "Synthetic fixture standing in for DEM/land-use/infrastructure-distance ingestion for candidate relocation sites (Phase 1/4). Not real site data.",
+  "sites": [
+    {
+      "id": "site-1",
+      "name": "Rampur Bench Site",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Demo District",
+      "subScores": { "slope": 85, "landUse": 80, "waterAccess": 75, "infrastructureDistance": 70, "ownHazardExposure": 95 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.48, 30.4], [78.482, 30.4], [78.482, 30.402], [78.48, 30.402], [78.48, 30.4]]]
+      }
+    },
+    {
+      "id": "site-2",
+      "name": "Kotwal Plateau Site",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Demo District",
+      "subScores": { "slope": 60, "landUse": 70, "waterAccess": 55, "infrastructureDistance": 65, "ownHazardExposure": 90 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.44, 30.41], [78.4415, 30.41], [78.4415, 30.4115], [78.44, 30.4115], [78.44, 30.41]]]
+      }
+    }
+  ]
+}

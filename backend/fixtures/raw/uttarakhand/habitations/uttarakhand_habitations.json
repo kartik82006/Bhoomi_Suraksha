@@ -1,0 +1,220 @@
+{
+  "habitations": [
+    {
+      "id": "uk-hab-01",
+      "name": "Joshimath",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Joshimath",
+      "connectivityScore": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5533,
+          30.5669
+        ]
+      },
+      "population": 48202,
+      "kutchaHousingShare": 0.365,
+      "elderlyChildShare": 0.115,
+      "_provenance": "Census 2011 unit Joshimath  (SUB-DISTRICT), illiteracy 0.229"
+    },
+    {
+      "id": "uk-hab-02",
+      "name": "Srinagar (Garhwal)",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Srinagar",
+      "connectivityScore": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7867,
+          30.2289
+        ]
+      },
+      "population": 53689,
+      "kutchaHousingShare": 0.356,
+      "elderlyChildShare": 0.11,
+      "_provenance": "Census 2011 unit Srinagar (SUB-DISTRICT), illiteracy 0.211"
+    },
+    {
+      "id": "uk-hab-03",
+      "name": "Rudraprayag",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Rudraprayag",
+      "connectivityScore": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9792,
+          30.2886
+        ]
+      },
+      "population": 242285,
+      "kutchaHousingShare": 0.397,
+      "elderlyChildShare": 0.132,
+      "_provenance": "Census 2011 unit Rudraprayag (DISTRICT), illiteracy 0.294"
+    },
+    {
+      "id": "uk-hab-04",
+      "name": "Devprayag",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Devprayag",
+      "connectivityScore": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5969,
+          30.1406
+        ]
+      },
+      "population": 94441,
+      "kutchaHousingShare": 0.419,
+      "elderlyChildShare": 0.127,
+      "_provenance": "Census 2011 unit Devprayag (SUB-DISTRICT), illiteracy 0.339"
+    },
+    {
+      "id": "uk-hab-05",
+      "name": "Uttarkashi",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "connectivityScore": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4469,
+          30.7292
+        ]
+      },
+      "population": 330086,
+      "kutchaHousingShare": 0.424,
+      "elderlyChildShare": 0.14,
+      "_provenance": "Census 2011 unit Uttarkashi (DISTRICT), illiteracy 0.348"
+    },
+    {
+      "id": "uk-hab-06",
+      "name": "Karnaprayag",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Karnaprayag",
+      "connectivityScore": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2144,
+          30.265
+        ]
+      },
+      "population": 56005,
+      "kutchaHousingShare": 0.376,
+      "elderlyChildShare": 0.123,
+      "_provenance": "Census 2011 unit Karnaprayag (SUB-DISTRICT), illiteracy 0.251"
+    },
+    {
+      "id": "uk-hab-07",
+      "name": "Nandprayag",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Nandprayag",
+      "connectivityScore": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3091,
+          30.3311
+        ]
+      },
+      "population": 1641,
+      "kutchaHousingShare": 0.375,
+      "elderlyChildShare": 0.139,
+      "_provenance": "Census 2011 unit Nandprayag (NP) (TOWN), illiteracy 0.25"
+    },
+    {
+      "id": "uk-hab-08",
+      "name": "Gaurikund (Kedarnath)",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Gaurikund",
+      "connectivityScore": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0281,
+          30.6544
+        ]
+      },
+      "population": 250,
+      "kutchaHousingShare": 0.5,
+      "elderlyChildShare": 0.12,
+      "_provenance": "No discrete Census 2011 unit; documented small settlement"
+    },
+    {
+      "id": "od-hab-01",
+      "name": "Satabhaya",
+      "stateCode": "Odisha",
+      "districtCode": "Kendrapara",
+      "connectivityScore": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.935,
+          20.655
+        ]
+      },
+      "population": 14403,
+      "kutchaHousingShare": 0.372,
+      "elderlyChildShare": 0.112,
+      "_provenance": "Census 2011 district Kendrapara  (DISTRICT) (population scaled to settlement level)"
+    },
+    {
+      "id": "od-hab-02",
+      "name": "Pentha",
+      "stateCode": "Odisha",
+      "districtCode": "Kendrapara",
+      "connectivityScore": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.775,
+          20.725
+        ]
+      },
+      "population": 14403,
+      "kutchaHousingShare": 0.372,
+      "elderlyChildShare": 0.112,
+      "_provenance": "Census 2011 district Kendrapara  (DISTRICT) (population scaled to settlement level)"
+    },
+    {
+      "id": "od-hab-03",
+      "name": "Paradip",
+      "stateCode": "Odisha",
+      "districtCode": "Jagatsinghpur",
+      "connectivityScore": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.61,
+          20.26
+        ]
+      },
+      "population": 500,
+      "kutchaHousingShare": 0.55,
+      "elderlyChildShare": 0.13,
+      "_provenance": "documented coastal settlement"
+    },
+    {
+      "id": "od-hab-04",
+      "name": "Puri (coastal wards)",
+      "stateCode": "Odisha",
+      "districtCode": "Puri",
+      "connectivityScore": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.83,
+          19.805
+        ]
+      },
+      "population": 16987,
+      "kutchaHousingShare": 0.37,
+      "elderlyChildShare": 0.102,
+      "_provenance": "Census 2011 district Puri (DISTRICT) (population scaled to settlement level)"
+    }
+  ]
+}

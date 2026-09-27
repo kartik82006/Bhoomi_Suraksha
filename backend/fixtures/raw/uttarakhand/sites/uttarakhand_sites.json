@@ -1,0 +1,228 @@
+{
+  "sites": [
+    {
+      "id": "uk-site-1",
+      "name": "Pipalkoti Bench",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.4174,
+              30.4206
+            ],
+            [
+              79.416521,
+              30.422509
+            ],
+            [
+              79.4144,
+              30.4233
+            ],
+            [
+              79.412279,
+              30.422509
+            ],
+            [
+              79.4114,
+              30.4206
+            ],
+            [
+              79.412279,
+              30.418691
+            ],
+            [
+              79.4144,
+              30.4179
+            ],
+            [
+              79.416521,
+              30.418691
+            ],
+            [
+              79.4174,
+              30.4206
+            ]
+          ]
+        ]
+      },
+      "subScores": {
+        "slope": 78,
+        "landUse": 80,
+        "waterAccess": 75,
+        "infrastructureDistance": 82,
+        "ownHazardExposure": 80
+      }
+    },
+    {
+      "id": "uk-site-2",
+      "name": "Dhak Relocation Site",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.513,
+              30.53
+            ],
+            [
+              79.512121,
+              30.531909
+            ],
+            [
+              79.51,
+              30.5327
+            ],
+            [
+              79.507879,
+              30.531909
+            ],
+            [
+              79.507,
+              30.53
+            ],
+            [
+              79.507879,
+              30.528091
+            ],
+            [
+              79.51,
+              30.5273
+            ],
+            [
+              79.512121,
+              30.528091
+            ],
+            [
+              79.513,
+              30.53
+            ]
+          ]
+        ]
+      },
+      "subScores": {
+        "slope": 70,
+        "landUse": 72,
+        "waterAccess": 68,
+        "infrastructureDistance": 74,
+        "ownHazardExposure": 76
+      }
+    },
+    {
+      "id": "uk-site-3",
+      "name": "Gauchar Plateau",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.153,
+              30.27
+            ],
+            [
+              79.152121,
+              30.271909
+            ],
+            [
+              79.15,
+              30.2727
+            ],
+            [
+              79.147879,
+              30.271909
+            ],
+            [
+              79.147,
+              30.27
+            ],
+            [
+              79.147879,
+              30.268091
+            ],
+            [
+              79.15,
+              30.2673
+            ],
+            [
+              79.152121,
+              30.268091
+            ],
+            [
+              79.153,
+              30.27
+            ]
+          ]
+        ]
+      },
+      "subScores": {
+        "slope": 85,
+        "landUse": 82,
+        "waterAccess": 78,
+        "infrastructureDistance": 80,
+        "ownHazardExposure": 84
+      }
+    },
+    {
+      "id": "od-site-1",
+      "name": "Bagapatia Resettlement Colony",
+      "stateCode": "Odisha",
+      "districtCode": "Kendrapara",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.833,
+              20.56
+            ],
+            [
+              86.832121,
+              20.561909
+            ],
+            [
+              86.83,
+              20.5627
+            ],
+            [
+              86.827879,
+              20.561909
+            ],
+            [
+              86.827,
+              20.56
+            ],
+            [
+              86.827879,
+              20.558091
+            ],
+            [
+              86.83,
+              20.5573
+            ],
+            [
+              86.832121,
+              20.558091
+            ],
+            [
+              86.833,
+              20.56
+            ]
+          ]
+        ]
+      },
+      "subScores": {
+        "slope": 90,
+        "landUse": 78,
+        "waterAccess": 72,
+        "infrastructureDistance": 76,
+        "ownHazardExposure": 88
+      }
+    }
+  ]
+}

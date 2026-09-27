@@ -1,0 +1,5329 @@
+{
+  "zones": [
+    {
+      "id": "uk-flood-001",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Haridwar",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.9075,
+              29.88
+            ],
+            [
+              77.904571,
+              29.886364
+            ],
+            [
+              77.8975,
+              29.889
+            ],
+            [
+              77.890429,
+              29.886364
+            ],
+            [
+              77.8875,
+              29.88
+            ],
+            [
+              77.890429,
+              29.873636
+            ],
+            [
+              77.8975,
+              29.871
+            ],
+            [
+              77.904571,
+              29.873636
+            ],
+            [
+              77.9075,
+              29.88
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 92.8,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.7
+      },
+      "_source": "CWC flood-forecast station 'Roorkee' on Solani (Ganga)",
+      "_physical": {
+        "elevation_meters": 279.3,
+        "slope_degrees": 3.4
+      }
+    },
+    {
+      "id": "uk-flood-002",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.313333,
+              30.874167
+            ],
+            [
+              78.310404,
+              30.880531
+            ],
+            [
+              78.303333,
+              30.883167
+            ],
+            [
+              78.296262,
+              30.880531
+            ],
+            [
+              78.293333,
+              30.874167
+            ],
+            [
+              78.296262,
+              30.867803
+            ],
+            [
+              78.303333,
+              30.865167
+            ],
+            [
+              78.310404,
+              30.867803
+            ],
+            [
+              78.313333,
+              30.874167
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 30.8,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.2
+      },
+      "_source": "CWC flood-forecast station 'Kuthnaur' on Yamuna (Ganga)",
+      "_physical": {
+        "elevation_meters": 2470.3,
+        "slope_degrees": 3.05
+      }
+    },
+    {
+      "id": "uk-flood-003",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Pithoragarh",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.379444,
+              29.760556
+            ],
+            [
+              80.376516,
+              29.76692
+            ],
+            [
+              80.369444,
+              29.769556
+            ],
+            [
+              80.362373,
+              29.76692
+            ],
+            [
+              80.359444,
+              29.760556
+            ],
+            [
+              80.362373,
+              29.754192
+            ],
+            [
+              80.369444,
+              29.751556
+            ],
+            [
+              80.376516,
+              29.754192
+            ],
+            [
+              80.379444,
+              29.760556
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 73.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 86.4
+      },
+      "_source": "CWC flood-forecast station 'Jauljibi' on Gauri Ganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 961.3,
+        "slope_degrees": 2.29
+      }
+    },
+    {
+      "id": "uk-flood-004",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "UDHAM SINGH NAGAR",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.776389,
+              29.041667
+            ],
+            [
+              79.77346,
+              29.048031
+            ],
+            [
+              79.766389,
+              29.050667
+            ],
+            [
+              79.759318,
+              29.048031
+            ],
+            [
+              79.756389,
+              29.041667
+            ],
+            [
+              79.759318,
+              29.035303
+            ],
+            [
+              79.766389,
+              29.032667
+            ],
+            [
+              79.77346,
+              29.035303
+            ],
+            [
+              79.776389,
+              29.041667
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 72.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.5
+      },
+      "_source": "CWC flood-forecast station 'Sitarganj' on Deoha (Ganga)",
+      "_physical": {
+        "elevation_meters": 996.9,
+        "slope_degrees": 4.15
+      }
+    },
+    {
+      "id": "uk-flood-005",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Haridwar",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.971889,
+              29.78
+            ],
+            [
+              77.96896,
+              29.786364
+            ],
+            [
+              77.961889,
+              29.789
+            ],
+            [
+              77.954818,
+              29.786364
+            ],
+            [
+              77.951889,
+              29.78
+            ],
+            [
+              77.954818,
+              29.773636
+            ],
+            [
+              77.961889,
+              29.771
+            ],
+            [
+              77.96896,
+              29.773636
+            ],
+            [
+              77.971889,
+              29.78
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 88.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.7
+      },
+      "_source": "CWC flood-forecast station 'Dosni' on Solani (Ganga)",
+      "_physical": {
+        "elevation_meters": 431.0,
+        "slope_degrees": 4.67
+      }
+    },
+    {
+      "id": "uk-flood-006",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Rudraprayag",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.038056,
+              30.654444
+            ],
+            [
+              79.035127,
+              30.660808
+            ],
+            [
+              79.028056,
+              30.663444
+            ],
+            [
+              79.020984,
+              30.660808
+            ],
+            [
+              79.018056,
+              30.654444
+            ],
+            [
+              79.020984,
+              30.64808
+            ],
+            [
+              79.028056,
+              30.645444
+            ],
+            [
+              79.035127,
+              30.64808
+            ],
+            [
+              79.038056,
+              30.654444
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 40.1,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.5
+      },
+      "_source": "CWC flood-forecast station 'Gaurikund' on Mandakini (Ganga)",
+      "_physical": {
+        "elevation_meters": 2141.9,
+        "slope_degrees": 4.11
+      }
+    },
+    {
+      "id": "uk-flood-007",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Dehradun",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.856667,
+              30.939722
+            ],
+            [
+              77.853738,
+              30.946086
+            ],
+            [
+              77.846667,
+              30.948722
+            ],
+            [
+              77.839596,
+              30.946086
+            ],
+            [
+              77.836667,
+              30.939722
+            ],
+            [
+              77.839596,
+              30.933358
+            ],
+            [
+              77.846667,
+              30.930722
+            ],
+            [
+              77.853738,
+              30.933358
+            ],
+            [
+              77.856667,
+              30.939722
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 30.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 80.6
+      },
+      "_source": "CWC flood-forecast station 'Tuini (Tons)' on Tons (Ganga)",
+      "_physical": {
+        "elevation_meters": 2712.9,
+        "slope_degrees": 5.99
+      }
+    },
+    {
+      "id": "uk-flood-008",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "PAURI GARHWAL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.796667,
+              30.228889
+            ],
+            [
+              78.793738,
+              30.235253
+            ],
+            [
+              78.786667,
+              30.237889
+            ],
+            [
+              78.779596,
+              30.235253
+            ],
+            [
+              78.776667,
+              30.228889
+            ],
+            [
+              78.779596,
+              30.222525
+            ],
+            [
+              78.786667,
+              30.219889
+            ],
+            [
+              78.793738,
+              30.222525
+            ],
+            [
+              78.796667,
+              30.228889
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 66.1,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.4
+      },
+      "_source": "CWC flood-forecast station 'Srinagar' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1224.1,
+        "slope_degrees": 3.58
+      }
+    },
+    {
+      "id": "uk-flood-009",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Rudraprayag",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.051944,
+              30.400556
+            ],
+            [
+              79.049016,
+              30.40692
+            ],
+            [
+              79.041944,
+              30.409556
+            ],
+            [
+              79.034873,
+              30.40692
+            ],
+            [
+              79.031944,
+              30.400556
+            ],
+            [
+              79.034873,
+              30.394192
+            ],
+            [
+              79.041944,
+              30.391556
+            ],
+            [
+              79.049016,
+              30.394192
+            ],
+            [
+              79.051944,
+              30.400556
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 49.2,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.0
+      },
+      "_source": "CWC flood-forecast station 'Ganganagar' on Mandakini (Ganga)",
+      "_physical": {
+        "elevation_meters": 1821.2,
+        "slope_degrees": 3.19
+      }
+    },
+    {
+      "id": "uk-flood-010",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.505833,
+              30.748333
+            ],
+            [
+              79.502904,
+              30.754697
+            ],
+            [
+              79.495833,
+              30.757333
+            ],
+            [
+              79.488762,
+              30.754697
+            ],
+            [
+              79.485833,
+              30.748333
+            ],
+            [
+              79.488762,
+              30.741969
+            ],
+            [
+              79.495833,
+              30.739333
+            ],
+            [
+              79.502904,
+              30.741969
+            ],
+            [
+              79.505833,
+              30.748333
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 30.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.7
+      },
+      "_source": "CWC flood-forecast station 'Badrinath' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 2798.9,
+        "slope_degrees": 2.74
+      }
+    },
+    {
+      "id": "uk-flood-011",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Pithoragarh",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.11,
+              29.533056
+            ],
+            [
+              80.107071,
+              29.53942
+            ],
+            [
+              80.1,
+              29.542056
+            ],
+            [
+              80.092929,
+              29.53942
+            ],
+            [
+              80.09,
+              29.533056
+            ],
+            [
+              80.092929,
+              29.526692
+            ],
+            [
+              80.1,
+              29.524056
+            ],
+            [
+              80.107071,
+              29.526692
+            ],
+            [
+              80.11,
+              29.533056
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 80.3,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 88.1
+      },
+      "_source": "CWC flood-forecast station 'RAMESHWAR' on Sarju (Ganga)",
+      "_physical": {
+        "elevation_meters": 718.7,
+        "slope_degrees": 1.23
+      }
+    },
+    {
+      "id": "uk-flood-012",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Dehradun",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.228333,
+              30.051667
+            ],
+            [
+              78.225404,
+              30.058031
+            ],
+            [
+              78.218333,
+              30.060667
+            ],
+            [
+              78.211262,
+              30.058031
+            ],
+            [
+              78.208333,
+              30.051667
+            ],
+            [
+              78.211262,
+              30.045303
+            ],
+            [
+              78.218333,
+              30.042667
+            ],
+            [
+              78.225404,
+              30.045303
+            ],
+            [
+              78.228333,
+              30.051667
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 71.6,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 88.0
+      },
+      "_source": "CWC flood-forecast station 'Satyanarayan' on Song (Ganga)",
+      "_physical": {
+        "elevation_meters": 1029.0,
+        "slope_degrees": 1.3
+      }
+    },
+    {
+      "id": "uk-flood-013",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.750833,
+              30.531389
+            ],
+            [
+              79.747904,
+              30.537753
+            ],
+            [
+              79.740833,
+              30.540389
+            ],
+            [
+              79.733762,
+              30.537753
+            ],
+            [
+              79.730833,
+              30.531389
+            ],
+            [
+              79.733762,
+              30.525025
+            ],
+            [
+              79.740833,
+              30.522389
+            ],
+            [
+              79.747904,
+              30.525025
+            ],
+            [
+              79.750833,
+              30.531389
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 37.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.7
+      },
+      "_source": "CWC flood-forecast station 'Suraithota' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 2235.2,
+        "slope_degrees": 4.03
+      }
+    },
+    {
+      "id": "uk-flood-014",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Nainital",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.563333,
+              29.54
+            ],
+            [
+              79.560404,
+              29.546364
+            ],
+            [
+              79.553333,
+              29.549
+            ],
+            [
+              79.546262,
+              29.546364
+            ],
+            [
+              79.543333,
+              29.54
+            ],
+            [
+              79.546262,
+              29.533636
+            ],
+            [
+              79.553333,
+              29.531
+            ],
+            [
+              79.560404,
+              29.533636
+            ],
+            [
+              79.563333,
+              29.54
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 85.8,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 86.6
+      },
+      "_source": "CWC flood-forecast station 'Suyalbari' on Kosi (Ganga)",
+      "_physical": {
+        "elevation_meters": 525.6,
+        "slope_degrees": 2.16
+      }
+    },
+    {
+      "id": "uk-flood-015",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Tehri Garhwal",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.640556,
+              30.473056
+            ],
+            [
+              78.637627,
+              30.47942
+            ],
+            [
+              78.630556,
+              30.482056
+            ],
+            [
+              78.623484,
+              30.47942
+            ],
+            [
+              78.620556,
+              30.473056
+            ],
+            [
+              78.623484,
+              30.466692
+            ],
+            [
+              78.630556,
+              30.464056
+            ],
+            [
+              78.637627,
+              30.466692
+            ],
+            [
+              78.640556,
+              30.473056
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 51.1,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 81.1
+      },
+      "_source": "CWC flood-forecast station 'Chamiyala' on Balganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 1753.8,
+        "slope_degrees": 5.66
+      }
+    },
+    {
+      "id": "uk-flood-016",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.398889,
+              30.407778
+            ],
+            [
+              79.39596,
+              30.414142
+            ],
+            [
+              79.388889,
+              30.416778
+            ],
+            [
+              79.381818,
+              30.414142
+            ],
+            [
+              79.378889,
+              30.407778
+            ],
+            [
+              79.381818,
+              30.401414
+            ],
+            [
+              79.388889,
+              30.398778
+            ],
+            [
+              79.39596,
+              30.401414
+            ],
+            [
+              79.398889,
+              30.407778
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 50.6,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.3
+      },
+      "_source": "CWC flood-forecast station 'Birahi' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1772.0,
+        "slope_degrees": 3.65
+      }
+    },
+    {
+      "id": "uk-flood-017",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Bageshwar",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.781389,
+              29.828056
+            ],
+            [
+              79.77846,
+              29.83442
+            ],
+            [
+              79.771389,
+              29.837056
+            ],
+            [
+              79.764318,
+              29.83442
+            ],
+            [
+              79.761389,
+              29.828056
+            ],
+            [
+              79.764318,
+              29.821692
+            ],
+            [
+              79.771389,
+              29.819056
+            ],
+            [
+              79.77846,
+              29.821692
+            ],
+            [
+              79.781389,
+              29.828056
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 65.4,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 86.3
+      },
+      "_source": "CWC flood-forecast station 'Bageshwar' on Saryu (Ganga)",
+      "_physical": {
+        "elevation_meters": 1247.3,
+        "slope_degrees": 2.38
+      }
+    },
+    {
+      "id": "uk-flood-018",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "UDHAM SINGH NAGAR",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.802222,
+              29.303889
+            ],
+            [
+              78.799293,
+              29.310253
+            ],
+            [
+              78.792222,
+              29.312889
+            ],
+            [
+              78.785151,
+              29.310253
+            ],
+            [
+              78.782222,
+              29.303889
+            ],
+            [
+              78.785151,
+              29.297525
+            ],
+            [
+              78.792222,
+              29.294889
+            ],
+            [
+              78.799293,
+              29.297525
+            ],
+            [
+              78.802222,
+              29.303889
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 87.2,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 88.2
+      },
+      "_source": "CWC flood-forecast station 'Fica Barrage D/S' on Fica (Ganga)",
+      "_physical": {
+        "elevation_meters": 474.7,
+        "slope_degrees": 1.13
+      }
+    },
+    {
+      "id": "uk-flood-019",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Dehradun",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.806667,
+              30.381111
+            ],
+            [
+              77.803738,
+              30.387475
+            ],
+            [
+              77.796667,
+              30.390111
+            ],
+            [
+              77.789596,
+              30.387475
+            ],
+            [
+              77.786667,
+              30.381111
+            ],
+            [
+              77.789596,
+              30.374747
+            ],
+            [
+              77.796667,
+              30.372111
+            ],
+            [
+              77.803738,
+              30.374747
+            ],
+            [
+              77.806667,
+              30.381111
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 58.3,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.5
+      },
+      "_source": "CWC flood-forecast station 'Sabhawala' on Aasan (Ganga)",
+      "_physical": {
+        "elevation_meters": 1498.2,
+        "slope_degrees": 2.85
+      }
+    },
+    {
+      "id": "uk-flood-020",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Bageshwar",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.644722,
+              29.903611
+            ],
+            [
+              79.641793,
+              29.909975
+            ],
+            [
+              79.634722,
+              29.912611
+            ],
+            [
+              79.627651,
+              29.909975
+            ],
+            [
+              79.624722,
+              29.903611
+            ],
+            [
+              79.627651,
+              29.897247
+            ],
+            [
+              79.634722,
+              29.894611
+            ],
+            [
+              79.641793,
+              29.897247
+            ],
+            [
+              79.644722,
+              29.903611
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 68.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.1
+      },
+      "_source": "CWC flood-forecast station 'Gagrigol' on Gomati (Ganga)",
+      "_physical": {
+        "elevation_meters": 1155.5,
+        "slope_degrees": 5.02
+      }
+    },
+    {
+      "id": "uk-flood-021",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Champawat",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.255833,
+              29.438056
+            ],
+            [
+              80.252904,
+              29.44442
+            ],
+            [
+              80.245833,
+              29.447056
+            ],
+            [
+              80.238762,
+              29.44442
+            ],
+            [
+              80.235833,
+              29.438056
+            ],
+            [
+              80.238762,
+              29.431692
+            ],
+            [
+              80.245833,
+              29.429056
+            ],
+            [
+              80.252904,
+              29.431692
+            ],
+            [
+              80.255833,
+              29.438056
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 76.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.9
+      },
+      "_source": "CWC flood-forecast station 'Pancheshwar' on Sarda (Ganga)",
+      "_physical": {
+        "elevation_meters": 852.9,
+        "slope_degrees": 3.87
+      }
+    },
+    {
+      "id": "uk-flood-022",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Nainital",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.048889,
+              29.158611
+            ],
+            [
+              79.04596,
+              29.164975
+            ],
+            [
+              79.038889,
+              29.167611
+            ],
+            [
+              79.031818,
+              29.164975
+            ],
+            [
+              79.028889,
+              29.158611
+            ],
+            [
+              79.031818,
+              29.152247
+            ],
+            [
+              79.038889,
+              29.149611
+            ],
+            [
+              79.04596,
+              29.152247
+            ],
+            [
+              79.048889,
+              29.158611
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 81.9,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.0
+      },
+      "_source": "CWC flood-forecast station 'Ramnagar Barrage D/S' on Kosi (Ganga)",
+      "_physical": {
+        "elevation_meters": 663.1,
+        "slope_degrees": 5.11
+      }
+    },
+    {
+      "id": "uk-flood-023",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "PAURI GARHWAL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.611111,
+              30.144444
+            ],
+            [
+              78.608182,
+              30.150808
+            ],
+            [
+              78.601111,
+              30.153444
+            ],
+            [
+              78.59404,
+              30.150808
+            ],
+            [
+              78.591111,
+              30.144444
+            ],
+            [
+              78.59404,
+              30.13808
+            ],
+            [
+              78.601111,
+              30.135444
+            ],
+            [
+              78.608182,
+              30.13808
+            ],
+            [
+              78.611111,
+              30.144444
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 70.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.1
+      },
+      "_source": "CWC flood-forecast station 'Devprayag (A)' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1086.2,
+        "slope_degrees": 5.02
+      }
+    },
+    {
+      "id": "uk-flood-024",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.576389,
+              30.039167
+            ],
+            [
+              79.57346,
+              30.045531
+            ],
+            [
+              79.566389,
+              30.048167
+            ],
+            [
+              79.559318,
+              30.045531
+            ],
+            [
+              79.556389,
+              30.039167
+            ],
+            [
+              79.559318,
+              30.032803
+            ],
+            [
+              79.566389,
+              30.030167
+            ],
+            [
+              79.57346,
+              30.032803
+            ],
+            [
+              79.576389,
+              30.039167
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 65.6,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.2
+      },
+      "_source": "CWC flood-forecast station 'Nandkeshri' on Pinder (Ganga)",
+      "_physical": {
+        "elevation_meters": 1239.8,
+        "slope_degrees": 3.04
+      }
+    },
+    {
+      "id": "uk-flood-025",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.326389,
+              30.610833
+            ],
+            [
+              78.32346,
+              30.617197
+            ],
+            [
+              78.316389,
+              30.619833
+            ],
+            [
+              78.309318,
+              30.617197
+            ],
+            [
+              78.306389,
+              30.610833
+            ],
+            [
+              78.309318,
+              30.604469
+            ],
+            [
+              78.316389,
+              30.601833
+            ],
+            [
+              78.32346,
+              30.604469
+            ],
+            [
+              78.326389,
+              30.610833
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 45.2,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.1
+      },
+      "_source": "CWC flood-forecast station 'Dharasu' on Bhagirathi (Ganga)",
+      "_physical": {
+        "elevation_meters": 1962.7,
+        "slope_degrees": 3.79
+      }
+    },
+    {
+      "id": "uk-flood-026",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Tehri Garhwal",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.766111,
+              30.516944
+            ],
+            [
+              78.763182,
+              30.523308
+            ],
+            [
+              78.756111,
+              30.525944
+            ],
+            [
+              78.74904,
+              30.523308
+            ],
+            [
+              78.746111,
+              30.516944
+            ],
+            [
+              78.74904,
+              30.51058
+            ],
+            [
+              78.756111,
+              30.507944
+            ],
+            [
+              78.763182,
+              30.51058
+            ],
+            [
+              78.766111,
+              30.516944
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 45.9,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.2
+      },
+      "_source": "CWC flood-forecast station 'Dhopaddhaar' on Bhilangane (Ganga)",
+      "_physical": {
+        "elevation_meters": 1938.7,
+        "slope_degrees": 3.71
+      }
+    },
+    {
+      "id": "uk-flood-027",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "PAURI GARHWAL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.606944,
+              30.140556
+            ],
+            [
+              78.604016,
+              30.14692
+            ],
+            [
+              78.596944,
+              30.149556
+            ],
+            [
+              78.589873,
+              30.14692
+            ],
+            [
+              78.586944,
+              30.140556
+            ],
+            [
+              78.589873,
+              30.134192
+            ],
+            [
+              78.596944,
+              30.131556
+            ],
+            [
+              78.604016,
+              30.134192
+            ],
+            [
+              78.606944,
+              30.140556
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 71.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 81.7
+      },
+      "_source": "CWC flood-forecast station 'Devprayag (G)' on Ganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 1032.8,
+        "slope_degrees": 5.3
+      }
+    },
+    {
+      "id": "uk-flood-028",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Dehradun",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.715,
+              30.761389
+            ],
+            [
+              77.712071,
+              30.767753
+            ],
+            [
+              77.705,
+              30.770389
+            ],
+            [
+              77.697929,
+              30.767753
+            ],
+            [
+              77.695,
+              30.761389
+            ],
+            [
+              77.697929,
+              30.755025
+            ],
+            [
+              77.705,
+              30.752389
+            ],
+            [
+              77.712071,
+              30.755025
+            ],
+            [
+              77.715,
+              30.761389
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 41.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.4
+      },
+      "_source": "CWC flood-forecast station 'Attal' on - (Ganga)",
+      "_physical": {
+        "elevation_meters": 2112.4,
+        "slope_degrees": 4.19
+      }
+    },
+    {
+      "id": "uk-flood-029",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.950278,
+              30.993889
+            ],
+            [
+              78.947349,
+              31.000253
+            ],
+            [
+              78.940278,
+              31.002889
+            ],
+            [
+              78.933207,
+              31.000253
+            ],
+            [
+              78.930278,
+              30.993889
+            ],
+            [
+              78.933207,
+              30.987525
+            ],
+            [
+              78.940278,
+              30.984889
+            ],
+            [
+              78.947349,
+              30.987525
+            ],
+            [
+              78.950278,
+              30.993889
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 30.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.1
+      },
+      "_source": "CWC flood-forecast station 'Gangotri' on Bhagirathi (Ganga)",
+      "_physical": {
+        "elevation_meters": 3176.1,
+        "slope_degrees": 3.14
+      }
+    },
+    {
+      "id": "uk-flood-030",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Pithoragarh",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.135833,
+              29.498611
+            ],
+            [
+              80.132904,
+              29.504975
+            ],
+            [
+              80.125833,
+              29.507611
+            ],
+            [
+              80.118762,
+              29.504975
+            ],
+            [
+              80.115833,
+              29.498611
+            ],
+            [
+              80.118762,
+              29.492247
+            ],
+            [
+              80.125833,
+              29.489611
+            ],
+            [
+              80.132904,
+              29.492247
+            ],
+            [
+              80.135833,
+              29.498611
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 74.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.6
+      },
+      "_source": "CWC flood-forecast station 'GHAT' on Saryu (Ganga)",
+      "_physical": {
+        "elevation_meters": 926.1,
+        "slope_degrees": 4.72
+      }
+    },
+    {
+      "id": "uk-flood-031",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Rudraprayag",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.989167,
+              30.288611
+            ],
+            [
+              78.986238,
+              30.294975
+            ],
+            [
+              78.979167,
+              30.297611
+            ],
+            [
+              78.972096,
+              30.294975
+            ],
+            [
+              78.969167,
+              30.288611
+            ],
+            [
+              78.972096,
+              30.282247
+            ],
+            [
+              78.979167,
+              30.279611
+            ],
+            [
+              78.986238,
+              30.282247
+            ],
+            [
+              78.989167,
+              30.288611
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 61.2,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.8
+      },
+      "_source": "CWC flood-forecast station 'Rudraprayag (M)' on Mandakini (Ganga)",
+      "_physical": {
+        "elevation_meters": 1394.5,
+        "slope_degrees": 2.67
+      }
+    },
+    {
+      "id": "uk-flood-032",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "PAURI GARHWAL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.770556,
+              29.497222
+            ],
+            [
+              78.767627,
+              29.503586
+            ],
+            [
+              78.760556,
+              29.506222
+            ],
+            [
+              78.753484,
+              29.503586
+            ],
+            [
+              78.750556,
+              29.497222
+            ],
+            [
+              78.753484,
+              29.490858
+            ],
+            [
+              78.760556,
+              29.488222
+            ],
+            [
+              78.767627,
+              29.490858
+            ],
+            [
+              78.770556,
+              29.497222
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 83.4,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.2
+      },
+      "_source": "CWC flood-forecast station 'Kalagarh' on Ramganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 610.0,
+        "slope_degrees": 4.94
+      }
+    },
+    {
+      "id": "uk-flood-033",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Dehradun",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.863056,
+              30.954722
+            ],
+            [
+              77.860127,
+              30.961086
+            ],
+            [
+              77.853056,
+              30.963722
+            ],
+            [
+              77.845984,
+              30.961086
+            ],
+            [
+              77.843056,
+              30.954722
+            ],
+            [
+              77.845984,
+              30.948358
+            ],
+            [
+              77.853056,
+              30.945722
+            ],
+            [
+              77.860127,
+              30.948358
+            ],
+            [
+              77.863056,
+              30.954722
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 30.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.3
+      },
+      "_source": "CWC flood-forecast station 'Tuini (Pabar)' on Pabar (Ganga)",
+      "_physical": {
+        "elevation_meters": 2800.5,
+        "slope_degrees": 3.64
+      }
+    },
+    {
+      "id": "uk-flood-034",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Champawat",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.31,
+              29.283333
+            ],
+            [
+              80.307071,
+              29.289697
+            ],
+            [
+              80.3,
+              29.292333
+            ],
+            [
+              80.292929,
+              29.289697
+            ],
+            [
+              80.29,
+              29.283333
+            ],
+            [
+              80.292929,
+              29.276969
+            ],
+            [
+              80.3,
+              29.274333
+            ],
+            [
+              80.307071,
+              29.276969
+            ],
+            [
+              80.31,
+              29.283333
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 70.8,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.0
+      },
+      "_source": "CWC flood-forecast station 'RUPALIGAD' on Mahakali/Sarda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1055.3,
+        "slope_degrees": 4.48
+      }
+    },
+    {
+      "id": "uk-flood-035",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.760278,
+              31.034722
+            ],
+            [
+              78.757349,
+              31.041086
+            ],
+            [
+              78.750278,
+              31.043722
+            ],
+            [
+              78.743207,
+              31.041086
+            ],
+            [
+              78.740278,
+              31.034722
+            ],
+            [
+              78.743207,
+              31.028358
+            ],
+            [
+              78.750278,
+              31.025722
+            ],
+            [
+              78.757349,
+              31.028358
+            ],
+            [
+              78.760278,
+              31.034722
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 30.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 80.2
+      },
+      "_source": "CWC flood-forecast station 'Harshil' on Bhagirathi (Ganga)",
+      "_physical": {
+        "elevation_meters": 3143.9,
+        "slope_degrees": 6.21
+      }
+    },
+    {
+      "id": "uk-flood-036",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Haridwar",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.069444,
+              29.695
+            ],
+            [
+              78.066516,
+              29.701364
+            ],
+            [
+              78.059444,
+              29.704
+            ],
+            [
+              78.052373,
+              29.701364
+            ],
+            [
+              78.049444,
+              29.695
+            ],
+            [
+              78.052373,
+              29.688636
+            ],
+            [
+              78.059444,
+              29.686
+            ],
+            [
+              78.066516,
+              29.688636
+            ],
+            [
+              78.069444,
+              29.695
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 84.9,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.3
+      },
+      "_source": "CWC flood-forecast station 'Raysi' on Banganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 556.5,
+        "slope_degrees": 3.61
+      }
+    },
+    {
+      "id": "uk-flood-037",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.319444,
+              30.331111
+            ],
+            [
+              79.316516,
+              30.337475
+            ],
+            [
+              79.309444,
+              30.340111
+            ],
+            [
+              79.302373,
+              30.337475
+            ],
+            [
+              79.299444,
+              30.331111
+            ],
+            [
+              79.302373,
+              30.324747
+            ],
+            [
+              79.309444,
+              30.322111
+            ],
+            [
+              79.316516,
+              30.324747
+            ],
+            [
+              79.319444,
+              30.331111
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 59.7,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.4
+      },
+      "_source": "CWC flood-forecast station 'Nandprayag' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1450.4,
+        "slope_degrees": 3.55
+      }
+    },
+    {
+      "id": "uk-flood-038",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Tehri Garhwal",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.513139,
+              30.265778
+            ],
+            [
+              78.51021,
+              30.272142
+            ],
+            [
+              78.503139,
+              30.274778
+            ],
+            [
+              78.496068,
+              30.272142
+            ],
+            [
+              78.493139,
+              30.265778
+            ],
+            [
+              78.496068,
+              30.259414
+            ],
+            [
+              78.503139,
+              30.256778
+            ],
+            [
+              78.51021,
+              30.259414
+            ],
+            [
+              78.513139,
+              30.265778
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 59.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.8
+      },
+      "_source": "CWC flood-forecast station 'Koteshwar' on Bhagirathi (Ganga)",
+      "_physical": {
+        "elevation_meters": 1456.6,
+        "slope_degrees": 2.69
+      }
+    },
+    {
+      "id": "uk-flood-039",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Dehradun",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.893333,
+              30.516667
+            ],
+            [
+              77.890404,
+              30.523031
+            ],
+            [
+              77.883333,
+              30.525667
+            ],
+            [
+              77.876262,
+              30.523031
+            ],
+            [
+              77.873333,
+              30.516667
+            ],
+            [
+              77.876262,
+              30.510303
+            ],
+            [
+              77.883333,
+              30.507667
+            ],
+            [
+              77.890404,
+              30.510303
+            ],
+            [
+              77.893333,
+              30.516667
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 57.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 86.5
+      },
+      "_source": "CWC flood-forecast station 'Juddo Dam' on Yamuna (Yamuna Basin)",
+      "_physical": {
+        "elevation_meters": 1546.0,
+        "slope_degrees": 2.22
+      }
+    },
+    {
+      "id": "uk-flood-040",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Tehri Garhwal",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.009722,
+              30.514444
+            ],
+            [
+              78.006793,
+              30.520808
+            ],
+            [
+              77.999722,
+              30.523444
+            ],
+            [
+              77.992651,
+              30.520808
+            ],
+            [
+              77.989722,
+              30.514444
+            ],
+            [
+              77.992651,
+              30.50808
+            ],
+            [
+              77.999722,
+              30.505444
+            ],
+            [
+              78.006793,
+              30.50808
+            ],
+            [
+              78.009722,
+              30.514444
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 55.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 86.2
+      },
+      "_source": "CWC flood-forecast station 'Aglarpul' on Aglar (Ganga)",
+      "_physical": {
+        "elevation_meters": 1598.6,
+        "slope_degrees": 2.41
+      }
+    },
+    {
+      "id": "uk-flood-041",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Haridwar",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.197528,
+              29.975639
+            ],
+            [
+              78.194599,
+              29.982003
+            ],
+            [
+              78.187528,
+              29.984639
+            ],
+            [
+              78.180457,
+              29.982003
+            ],
+            [
+              78.177528,
+              29.975639
+            ],
+            [
+              78.180457,
+              29.969275
+            ],
+            [
+              78.187528,
+              29.966639
+            ],
+            [
+              78.194599,
+              29.969275
+            ],
+            [
+              78.197528,
+              29.975639
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 85.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.9
+      },
+      "_source": "CWC flood-forecast station 'Haridwar' on Ganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 536.2,
+        "slope_degrees": 3.87
+      }
+    },
+    {
+      "id": "uk-flood-042",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Pithoragarh",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.151111,
+              29.8275
+            ],
+            [
+              80.148182,
+              29.833864
+            ],
+            [
+              80.141111,
+              29.8365
+            ],
+            [
+              80.13404,
+              29.833864
+            ],
+            [
+              80.131111,
+              29.8275
+            ],
+            [
+              80.13404,
+              29.821136
+            ],
+            [
+              80.141111,
+              29.8185
+            ],
+            [
+              80.148182,
+              29.821136
+            ],
+            [
+              80.151111,
+              29.8275
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 64.9,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.9
+      },
+      "_source": "CWC flood-forecast station 'Thal' on Ram Ganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 1263.8,
+        "slope_degrees": 3.86
+      }
+    },
+    {
+      "id": "uk-flood-043",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Tehri Garhwal",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.487778,
+              30.377778
+            ],
+            [
+              78.484849,
+              30.384142
+            ],
+            [
+              78.477778,
+              30.386778
+            ],
+            [
+              78.470707,
+              30.384142
+            ],
+            [
+              78.467778,
+              30.377778
+            ],
+            [
+              78.470707,
+              30.371414
+            ],
+            [
+              78.477778,
+              30.368778
+            ],
+            [
+              78.484849,
+              30.371414
+            ],
+            [
+              78.487778,
+              30.377778
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 55.9,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.9
+      },
+      "_source": "CWC flood-forecast station 'Tehri Dam' on Bhagirathi (Ganga)",
+      "_physical": {
+        "elevation_meters": 1583.1,
+        "slope_degrees": 4.49
+      }
+    },
+    {
+      "id": "uk-flood-044",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Nainital",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.594167,
+              29.318556
+            ],
+            [
+              79.591238,
+              29.32492
+            ],
+            [
+              79.584167,
+              29.327556
+            ],
+            [
+              79.577096,
+              29.32492
+            ],
+            [
+              79.574167,
+              29.318556
+            ],
+            [
+              79.577096,
+              29.312192
+            ],
+            [
+              79.584167,
+              29.309556
+            ],
+            [
+              79.591238,
+              29.312192
+            ],
+            [
+              79.594167,
+              29.318556
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 81.4,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.7
+      },
+      "_source": "CWC flood-forecast station 'NAUKUCHIATAL' on Bhakhra (Ganga)",
+      "_physical": {
+        "elevation_meters": 679.6,
+        "slope_degrees": 4.67
+      }
+    },
+    {
+      "id": "uk-flood-045",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.563333,
+              30.566944
+            ],
+            [
+              79.560404,
+              30.573308
+            ],
+            [
+              79.553333,
+              30.575944
+            ],
+            [
+              79.546262,
+              30.573308
+            ],
+            [
+              79.543333,
+              30.566944
+            ],
+            [
+              79.546262,
+              30.56058
+            ],
+            [
+              79.553333,
+              30.557944
+            ],
+            [
+              79.560404,
+              30.56058
+            ],
+            [
+              79.563333,
+              30.566944
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 46.2,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.2
+      },
+      "_source": "CWC flood-forecast station 'Joshimath' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1925.5,
+        "slope_degrees": 3.02
+      }
+    },
+    {
+      "id": "uk-flood-046",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Nainital",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.152222,
+              29.486944
+            ],
+            [
+              79.149293,
+              29.493308
+            ],
+            [
+              79.142222,
+              29.495944
+            ],
+            [
+              79.135151,
+              29.493308
+            ],
+            [
+              79.132222,
+              29.486944
+            ],
+            [
+              79.135151,
+              29.48058
+            ],
+            [
+              79.142222,
+              29.477944
+            ],
+            [
+              79.149293,
+              29.48058
+            ],
+            [
+              79.152222,
+              29.486944
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 82.7,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.0
+      },
+      "_source": "CWC flood-forecast station 'Garjia' on Kosi (Ganga)",
+      "_physical": {
+        "elevation_meters": 634.6,
+        "slope_degrees": 3.19
+      }
+    },
+    {
+      "id": "uk-flood-047",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Pithoragarh",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.587778,
+              30.026111
+            ],
+            [
+              80.584849,
+              30.032475
+            ],
+            [
+              80.577778,
+              30.035111
+            ],
+            [
+              80.570707,
+              30.032475
+            ],
+            [
+              80.567778,
+              30.026111
+            ],
+            [
+              80.570707,
+              30.019747
+            ],
+            [
+              80.577778,
+              30.017111
+            ],
+            [
+              80.584849,
+              30.019747
+            ],
+            [
+              80.587778,
+              30.026111
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 52.6,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.0
+      },
+      "_source": "CWC flood-forecast station 'Kanjyoti' on Dhauliganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 1701.2,
+        "slope_degrees": 5.12
+      }
+    },
+    {
+      "id": "uk-flood-048",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "PAURI GARHWAL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.769167,
+              29.520278
+            ],
+            [
+              78.766238,
+              29.526642
+            ],
+            [
+              78.759167,
+              29.529278
+            ],
+            [
+              78.752096,
+              29.526642
+            ],
+            [
+              78.749167,
+              29.520278
+            ],
+            [
+              78.752096,
+              29.513914
+            ],
+            [
+              78.759167,
+              29.511278
+            ],
+            [
+              78.766238,
+              29.513914
+            ],
+            [
+              78.769167,
+              29.520278
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 88.3,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.1
+      },
+      "_source": "CWC flood-forecast station 'Kalagarh Dam' on Ramganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 437.2,
+        "slope_degrees": 3.74
+      }
+    },
+    {
+      "id": "uk-flood-049",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Dehradun",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.835833,
+              30.537222
+            ],
+            [
+              77.832904,
+              30.543586
+            ],
+            [
+              77.825833,
+              30.546222
+            ],
+            [
+              77.818762,
+              30.543586
+            ],
+            [
+              77.815833,
+              30.537222
+            ],
+            [
+              77.818762,
+              30.530858
+            ],
+            [
+              77.825833,
+              30.528222
+            ],
+            [
+              77.832904,
+              30.530858
+            ],
+            [
+              77.835833,
+              30.537222
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 55.1,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.3
+      },
+      "_source": "CWC flood-forecast station 'Haripur' on Tons (South) (Ganga)",
+      "_physical": {
+        "elevation_meters": 1612.1,
+        "slope_degrees": 3.65
+      }
+    },
+    {
+      "id": "uk-flood-050",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Rudraprayag",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.975,
+              30.275278
+            ],
+            [
+              78.972071,
+              30.281642
+            ],
+            [
+              78.965,
+              30.284278
+            ],
+            [
+              78.957929,
+              30.281642
+            ],
+            [
+              78.955,
+              30.275278
+            ],
+            [
+              78.957929,
+              30.268914
+            ],
+            [
+              78.965,
+              30.266278
+            ],
+            [
+              78.972071,
+              30.268914
+            ],
+            [
+              78.975,
+              30.275278
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 59.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.5
+      },
+      "_source": "CWC flood-forecast station 'Rudraprayag (C)' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1472.9,
+        "slope_degrees": 2.87
+      }
+    },
+    {
+      "id": "uk-flood-051",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.6875,
+              30.896667
+            ],
+            [
+              78.684571,
+              30.903031
+            ],
+            [
+              78.6775,
+              30.905667
+            ],
+            [
+              78.670429,
+              30.903031
+            ],
+            [
+              78.6675,
+              30.896667
+            ],
+            [
+              78.670429,
+              30.890303
+            ],
+            [
+              78.6775,
+              30.887667
+            ],
+            [
+              78.684571,
+              30.890303
+            ],
+            [
+              78.6875,
+              30.896667
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 30.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.2
+      },
+      "_source": "CWC flood-forecast station 'Gangnani' on Bhagirathi (Ganga)",
+      "_physical": {
+        "elevation_meters": 2625.2,
+        "slope_degrees": 3.04
+      }
+    },
+    {
+      "id": "uk-flood-052",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.125,
+              30.798056
+            ],
+            [
+              78.122071,
+              30.80442
+            ],
+            [
+              78.115,
+              30.807056
+            ],
+            [
+              78.107929,
+              30.80442
+            ],
+            [
+              78.105,
+              30.798056
+            ],
+            [
+              78.107929,
+              30.791692
+            ],
+            [
+              78.115,
+              30.789056
+            ],
+            [
+              78.122071,
+              30.791692
+            ],
+            [
+              78.125,
+              30.798056
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 37.9,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.5
+      },
+      "_source": "CWC flood-forecast station 'Purola' on Kamal (Ganga)",
+      "_physical": {
+        "elevation_meters": 2221.0,
+        "slope_degrees": 4.76
+      }
+    },
+    {
+      "id": "uk-flood-053",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Nainital",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.558333,
+              29.2675
+            ],
+            [
+              79.555404,
+              29.273864
+            ],
+            [
+              79.548333,
+              29.2765
+            ],
+            [
+              79.541262,
+              29.273864
+            ],
+            [
+              79.538333,
+              29.2675
+            ],
+            [
+              79.541262,
+              29.261136
+            ],
+            [
+              79.548333,
+              29.2585
+            ],
+            [
+              79.555404,
+              29.261136
+            ],
+            [
+              79.558333,
+              29.2675
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 80.8,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.8
+      },
+      "_source": "CWC flood-forecast station 'Kathgodam' on Kichha (Gaula) (Ganga)",
+      "_physical": {
+        "elevation_meters": 704.1,
+        "slope_degrees": 3.94
+      }
+    },
+    {
+      "id": "uk-flood-054",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.376389,
+              30.413611
+            ],
+            [
+              79.37346,
+              30.419975
+            ],
+            [
+              79.366389,
+              30.422611
+            ],
+            [
+              79.359318,
+              30.419975
+            ],
+            [
+              79.356389,
+              30.413611
+            ],
+            [
+              79.359318,
+              30.407247
+            ],
+            [
+              79.366389,
+              30.404611
+            ],
+            [
+              79.37346,
+              30.407247
+            ],
+            [
+              79.376389,
+              30.413611
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 48.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.6
+      },
+      "_source": "CWC flood-forecast station 'Chhinka' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1846.9,
+        "slope_degrees": 4.06
+      }
+    },
+    {
+      "id": "uk-flood-055",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.586111,
+              30.562222
+            ],
+            [
+              79.583182,
+              30.568586
+            ],
+            [
+              79.576111,
+              30.571222
+            ],
+            [
+              79.56904,
+              30.568586
+            ],
+            [
+              79.566111,
+              30.562222
+            ],
+            [
+              79.56904,
+              30.555858
+            ],
+            [
+              79.576111,
+              30.553222
+            ],
+            [
+              79.583182,
+              30.555858
+            ],
+            [
+              79.586111,
+              30.562222
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 44.7,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.2
+      },
+      "_source": "CWC flood-forecast station 'Vishnuprayag' on Mandakini (Ganga)",
+      "_physical": {
+        "elevation_meters": 1979.2,
+        "slope_degrees": 3.66
+      }
+    },
+    {
+      "id": "uk-flood-056",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Dehradun",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.801111,
+              30.613611
+            ],
+            [
+              77.798182,
+              30.619975
+            ],
+            [
+              77.791111,
+              30.622611
+            ],
+            [
+              77.78404,
+              30.619975
+            ],
+            [
+              77.781111,
+              30.613611
+            ],
+            [
+              77.78404,
+              30.607247
+            ],
+            [
+              77.791111,
+              30.604611
+            ],
+            [
+              77.798182,
+              30.607247
+            ],
+            [
+              77.801111,
+              30.613611
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 43.7,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.7
+      },
+      "_source": "CWC flood-forecast station 'Ichari Dam' on Tons (Ganga)",
+      "_physical": {
+        "elevation_meters": 2014.6,
+        "slope_degrees": 2.71
+      }
+    },
+    {
+      "id": "uk-flood-057",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Champawat",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.115556,
+              28.995556
+            ],
+            [
+              80.112627,
+              29.00192
+            ],
+            [
+              80.105556,
+              29.004556
+            ],
+            [
+              80.098484,
+              29.00192
+            ],
+            [
+              80.095556,
+              28.995556
+            ],
+            [
+              80.098484,
+              28.989192
+            ],
+            [
+              80.105556,
+              28.986556
+            ],
+            [
+              80.112627,
+              28.989192
+            ],
+            [
+              80.115556,
+              28.995556
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 74.8,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.9
+      },
+      "_source": "CWC flood-forecast station 'Banbasa Barrage' on Sarda (Ganga)",
+      "_physical": {
+        "elevation_meters": 916.3,
+        "slope_degrees": 3.88
+      }
+    },
+    {
+      "id": "uk-flood-058",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Champawat",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21,
+              29.133056
+            ],
+            [
+              80.207071,
+              29.13942
+            ],
+            [
+              80.2,
+              29.142056
+            ],
+            [
+              80.192929,
+              29.13942
+            ],
+            [
+              80.19,
+              29.133056
+            ],
+            [
+              80.192929,
+              29.126692
+            ],
+            [
+              80.2,
+              29.124056
+            ],
+            [
+              80.207071,
+              29.126692
+            ],
+            [
+              80.21,
+              29.133056
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 65.8,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 86.3
+      },
+      "_source": "CWC flood-forecast station 'PURNAGIRI' on Mahakali\\Sarda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1233.0,
+        "slope_degrees": 2.35
+      }
+    },
+    {
+      "id": "uk-flood-059",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Nainital",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.353611,
+              29.553889
+            ],
+            [
+              79.350682,
+              29.560253
+            ],
+            [
+              79.343611,
+              29.562889
+            ],
+            [
+              79.33654,
+              29.560253
+            ],
+            [
+              79.333611,
+              29.553889
+            ],
+            [
+              79.33654,
+              29.547525
+            ],
+            [
+              79.343611,
+              29.544889
+            ],
+            [
+              79.350682,
+              29.547525
+            ],
+            [
+              79.353611,
+              29.553889
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 78.6,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.5
+      },
+      "_source": "CWC flood-forecast station 'Betalghat' on Kosi (Ganga)",
+      "_physical": {
+        "elevation_meters": 779.1,
+        "slope_degrees": 4.11
+      }
+    },
+    {
+      "id": "uk-flood-060",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Almora",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.256944,
+              29.741667
+            ],
+            [
+              79.254016,
+              29.748031
+            ],
+            [
+              79.246944,
+              29.750667
+            ],
+            [
+              79.239873,
+              29.748031
+            ],
+            [
+              79.236944,
+              29.741667
+            ],
+            [
+              79.239873,
+              29.735303
+            ],
+            [
+              79.246944,
+              29.732667
+            ],
+            [
+              79.254016,
+              29.735303
+            ],
+            [
+              79.256944,
+              29.741667
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 83.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.6
+      },
+      "_source": "CWC flood-forecast station 'Naula' on Ramganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 626.2,
+        "slope_degrees": 4.08
+      }
+    },
+    {
+      "id": "uk-flood-061",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Dehradun",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.863056,
+              30.526944
+            ],
+            [
+              77.860127,
+              30.533308
+            ],
+            [
+              77.853056,
+              30.535944
+            ],
+            [
+              77.845984,
+              30.533308
+            ],
+            [
+              77.843056,
+              30.526944
+            ],
+            [
+              77.845984,
+              30.52058
+            ],
+            [
+              77.853056,
+              30.517944
+            ],
+            [
+              77.860127,
+              30.52058
+            ],
+            [
+              77.863056,
+              30.526944
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 57.2,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.8
+      },
+      "_source": "CWC flood-forecast station 'Kalsi' on Amlav (Ganga)",
+      "_physical": {
+        "elevation_meters": 1538.4,
+        "slope_degrees": 3.91
+      }
+    },
+    {
+      "id": "uk-flood-062",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.456944,
+              30.729167
+            ],
+            [
+              78.454016,
+              30.735531
+            ],
+            [
+              78.446944,
+              30.738167
+            ],
+            [
+              78.439873,
+              30.735531
+            ],
+            [
+              78.436944,
+              30.729167
+            ],
+            [
+              78.439873,
+              30.722803
+            ],
+            [
+              78.446944,
+              30.720167
+            ],
+            [
+              78.454016,
+              30.722803
+            ],
+            [
+              78.456944,
+              30.729167
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 36.4,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 86.0
+      },
+      "_source": "CWC flood-forecast station 'Uttarkashi' on Bhagirathi (Ganga)",
+      "_physical": {
+        "elevation_meters": 2274.5,
+        "slope_degrees": 2.57
+      }
+    },
+    {
+      "id": "uk-flood-063",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Dehradun",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.313889,
+              30.103056
+            ],
+            [
+              78.31096,
+              30.10942
+            ],
+            [
+              78.303889,
+              30.112056
+            ],
+            [
+              78.296818,
+              30.10942
+            ],
+            [
+              78.293889,
+              30.103056
+            ],
+            [
+              78.296818,
+              30.096692
+            ],
+            [
+              78.303889,
+              30.094056
+            ],
+            [
+              78.31096,
+              30.096692
+            ],
+            [
+              78.313889,
+              30.103056
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 83.3,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 87.2
+      },
+      "_source": "CWC flood-forecast station 'Rishikesh' on Ganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 612.7,
+        "slope_degrees": 1.79
+      }
+    },
+    {
+      "id": "uk-flood-064",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.424444,
+              30.420556
+            ],
+            [
+              79.421516,
+              30.42692
+            ],
+            [
+              79.414444,
+              30.429556
+            ],
+            [
+              79.407373,
+              30.42692
+            ],
+            [
+              79.404444,
+              30.420556
+            ],
+            [
+              79.407373,
+              30.414192
+            ],
+            [
+              79.414444,
+              30.411556
+            ],
+            [
+              79.421516,
+              30.414192
+            ],
+            [
+              79.424444,
+              30.420556
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 54.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.2
+      },
+      "_source": "CWC flood-forecast station 'Pipalkoti' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1650.0,
+        "slope_degrees": 3.07
+      }
+    },
+    {
+      "id": "uk-flood-065",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.224444,
+              30.265
+            ],
+            [
+              79.221516,
+              30.271364
+            ],
+            [
+              79.214444,
+              30.274
+            ],
+            [
+              79.207373,
+              30.271364
+            ],
+            [
+              79.204444,
+              30.265
+            ],
+            [
+              79.207373,
+              30.258636
+            ],
+            [
+              79.214444,
+              30.256
+            ],
+            [
+              79.221516,
+              30.258636
+            ],
+            [
+              79.224444,
+              30.265
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 53.6,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.0
+      },
+      "_source": "CWC flood-forecast station 'Karnaprayag (A)' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1663.3,
+        "slope_degrees": 3.21
+      }
+    },
+    {
+      "id": "uk-flood-066",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Champawat",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.115556,
+              28.995833
+            ],
+            [
+              80.112627,
+              29.002197
+            ],
+            [
+              80.105556,
+              29.004833
+            ],
+            [
+              80.098484,
+              29.002197
+            ],
+            [
+              80.095556,
+              28.995833
+            ],
+            [
+              80.098484,
+              28.989469
+            ],
+            [
+              80.105556,
+              28.986833
+            ],
+            [
+              80.112627,
+              28.989469
+            ],
+            [
+              80.115556,
+              28.995833
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 74.7,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.9
+      },
+      "_source": "CWC flood-forecast station 'Banbasa' on Sarda (Ganga)",
+      "_physical": {
+        "elevation_meters": 918.4,
+        "slope_degrees": 3.86
+      }
+    },
+    {
+      "id": "uk-flood-067",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.611389,
+              30.772778
+            ],
+            [
+              78.60846,
+              30.779142
+            ],
+            [
+              78.601389,
+              30.781778
+            ],
+            [
+              78.594318,
+              30.779142
+            ],
+            [
+              78.591389,
+              30.772778
+            ],
+            [
+              78.594318,
+              30.766414
+            ],
+            [
+              78.601389,
+              30.763778
+            ],
+            [
+              78.60846,
+              30.766414
+            ],
+            [
+              78.611389,
+              30.772778
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 37.1,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 84.3
+      },
+      "_source": "CWC flood-forecast station 'Maneri' on Bhagirathi (Ganga)",
+      "_physical": {
+        "elevation_meters": 2248.4,
+        "slope_degrees": 3.62
+      }
+    },
+    {
+      "id": "uk-flood-068",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Chamoli",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.231111,
+              30.255
+            ],
+            [
+              79.228182,
+              30.261364
+            ],
+            [
+              79.221111,
+              30.264
+            ],
+            [
+              79.21404,
+              30.261364
+            ],
+            [
+              79.211111,
+              30.255
+            ],
+            [
+              79.21404,
+              30.248636
+            ],
+            [
+              79.221111,
+              30.246
+            ],
+            [
+              79.228182,
+              30.248636
+            ],
+            [
+              79.231111,
+              30.255
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 56.3,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 82.1
+      },
+      "_source": "CWC flood-forecast station 'Karnaprayag (P)' on Pinder (Ganga)",
+      "_physical": {
+        "elevation_meters": 1568.8,
+        "slope_degrees": 5.01
+      }
+    },
+    {
+      "id": "uk-flood-069",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "PAURI GARHWAL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.712444,
+              29.937306
+            ],
+            [
+              78.709516,
+              29.94367
+            ],
+            [
+              78.702444,
+              29.946306
+            ],
+            [
+              78.695373,
+              29.94367
+            ],
+            [
+              78.692444,
+              29.937306
+            ],
+            [
+              78.695373,
+              29.930942
+            ],
+            [
+              78.702444,
+              29.928306
+            ],
+            [
+              78.709516,
+              29.930942
+            ],
+            [
+              78.712444,
+              29.937306
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 78.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 87.5
+      },
+      "_source": "CWC flood-forecast station 'Marora' on Nayar (Ganga)",
+      "_physical": {
+        "elevation_meters": 803.1,
+        "slope_degrees": 1.56
+      }
+    },
+    {
+      "id": "uk-flood-070",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Pithoragarh",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.314444,
+              29.959444
+            ],
+            [
+              80.311516,
+              29.965808
+            ],
+            [
+              80.304444,
+              29.968444
+            ],
+            [
+              80.297373,
+              29.965808
+            ],
+            [
+              80.294444,
+              29.959444
+            ],
+            [
+              80.297373,
+              29.95308
+            ],
+            [
+              80.304444,
+              29.950444
+            ],
+            [
+              80.311516,
+              29.95308
+            ],
+            [
+              80.314444,
+              29.959444
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 59.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.4
+      },
+      "_source": "CWC flood-forecast station 'Bangapani' on Gauri Ganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 1455.9,
+        "slope_degrees": 4.17
+      }
+    },
+    {
+      "id": "uk-flood-071",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Almora",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.102778,
+              29.606111
+            ],
+            [
+              79.099849,
+              29.612475
+            ],
+            [
+              79.092778,
+              29.615111
+            ],
+            [
+              79.085707,
+              29.612475
+            ],
+            [
+              79.082778,
+              29.606111
+            ],
+            [
+              79.085707,
+              29.599747
+            ],
+            [
+              79.092778,
+              29.597111
+            ],
+            [
+              79.099849,
+              29.599747
+            ],
+            [
+              79.102778,
+              29.606111
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 79.7,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.1
+      },
+      "_source": "CWC flood-forecast station 'Marchula' on Ramganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 741.0,
+        "slope_degrees": 4.41
+      }
+    },
+    {
+      "id": "uk-flood-072",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.307222,
+              30.695
+            ],
+            [
+              78.304293,
+              30.701364
+            ],
+            [
+              78.297222,
+              30.704
+            ],
+            [
+              78.290151,
+              30.701364
+            ],
+            [
+              78.287222,
+              30.695
+            ],
+            [
+              78.290151,
+              30.688636
+            ],
+            [
+              78.297222,
+              30.686
+            ],
+            [
+              78.304293,
+              30.688636
+            ],
+            [
+              78.307222,
+              30.695
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 46.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 81.7
+      },
+      "_source": "CWC flood-forecast station 'Brahmakhaal' on Dusk (Ganga)",
+      "_physical": {
+        "elevation_meters": 1917.6,
+        "slope_degrees": 5.26
+      }
+    },
+    {
+      "id": "uk-flood-073",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Tehri Garhwal",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.609444,
+              30.151944
+            ],
+            [
+              78.606516,
+              30.158308
+            ],
+            [
+              78.599444,
+              30.160944
+            ],
+            [
+              78.592373,
+              30.158308
+            ],
+            [
+              78.589444,
+              30.151944
+            ],
+            [
+              78.592373,
+              30.14558
+            ],
+            [
+              78.599444,
+              30.142944
+            ],
+            [
+              78.606516,
+              30.14558
+            ],
+            [
+              78.609444,
+              30.151944
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 68.9,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 83.8
+      },
+      "_source": "CWC flood-forecast station 'Devprayag (B)' on Bhagirathi (Ganga)",
+      "_physical": {
+        "elevation_meters": 1124.5,
+        "slope_degrees": 3.97
+      }
+    },
+    {
+      "id": "uk-flood-074",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.148056,
+              30.791667
+            ],
+            [
+              78.145127,
+              30.798031
+            ],
+            [
+              78.138056,
+              30.800667
+            ],
+            [
+              78.130984,
+              30.798031
+            ],
+            [
+              78.128056,
+              30.791667
+            ],
+            [
+              78.130984,
+              30.785303
+            ],
+            [
+              78.138056,
+              30.782667
+            ],
+            [
+              78.145127,
+              30.785303
+            ],
+            [
+              78.148056,
+              30.791667
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 42.0,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 85.1
+      },
+      "_source": "CWC flood-forecast station 'Naugaon' on Yamuna (Ganga)",
+      "_physical": {
+        "elevation_meters": 2075.2,
+        "slope_degrees": 3.11
+      }
+    },
+    {
+      "id": "uk-flood-075",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Almora",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.271111,
+              29.696944
+            ],
+            [
+              79.268182,
+              29.703308
+            ],
+            [
+              79.261111,
+              29.705944
+            ],
+            [
+              79.25404,
+              29.703308
+            ],
+            [
+              79.251111,
+              29.696944
+            ],
+            [
+              79.25404,
+              29.69058
+            ],
+            [
+              79.261111,
+              29.687944
+            ],
+            [
+              79.268182,
+              29.69058
+            ],
+            [
+              79.271111,
+              29.696944
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 74.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 78.8,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 86.9
+      },
+      "_source": "CWC flood-forecast station 'Bhikiasen' on Ramganga (Ganga)",
+      "_physical": {
+        "elevation_meters": 774.5,
+        "slope_degrees": 1.99
+      }
+    },
+    {
+      "id": "uk-flood-076",
+      "hazardType": "flood",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Rudraprayag",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.9942,
+              30.288061
+            ],
+            [
+              78.991271,
+              30.294425
+            ],
+            [
+              78.9842,
+              30.297061
+            ],
+            [
+              78.977129,
+              30.294425
+            ],
+            [
+              78.9742,
+              30.288061
+            ],
+            [
+              78.977129,
+              30.281697
+            ],
+            [
+              78.9842,
+              30.279061
+            ],
+            [
+              78.991271,
+              30.281697
+            ],
+            [
+              78.9942,
+              30.288061
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88.0,
+        "distance_to_drainage": 96.0,
+        "elevation": 61.5,
+        "land_cover": 55,
+        "soil_permeability": 50,
+        "slope": 86.4
+      },
+      "_source": "CWC flood-forecast station 'Rudraprayag (A)' on Alaknanda (Ganga)",
+      "_physical": {
+        "elevation_meters": 1385.8,
+        "slope_degrees": 2.27
+      }
+    },
+    {
+      "id": "uk-landslide-001",
+      "hazardType": "landslide",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Joshimath",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.5768,
+              30.5652
+            ],
+            [
+              79.573285,
+              30.572837
+            ],
+            [
+              79.5648,
+              30.576
+            ],
+            [
+              79.556315,
+              30.572837
+            ],
+            [
+              79.5528,
+              30.5652
+            ],
+            [
+              79.556315,
+              30.557563
+            ],
+            [
+              79.5648,
+              30.5544
+            ],
+            [
+              79.573285,
+              30.557563
+            ],
+            [
+              79.5768,
+              30.5652
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "slope": 50.0,
+        "rainfall_intensity": 85,
+        "lithology": 90,
+        "distance_to_drainage": 70,
+        "land_cover": 78,
+        "elevation": 76.3
+      },
+      "_source": "NRSC Landslide Atlas hotspot: Joshimath (factors are Atlas-informed proxies)",
+      "_physical": {
+        "elevation_meters": 1942.7,
+        "slope_degrees": 3.34
+      }
+    },
+    {
+      "id": "uk-landslide-002",
+      "hazardType": "landslide",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Gaurikund-Kedarnath",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.0401,
+              30.6544
+            ],
+            [
+              79.036585,
+              30.662037
+            ],
+            [
+              79.0281,
+              30.6652
+            ],
+            [
+              79.019615,
+              30.662037
+            ],
+            [
+              79.0161,
+              30.6544
+            ],
+            [
+              79.019615,
+              30.646763
+            ],
+            [
+              79.0281,
+              30.6436
+            ],
+            [
+              79.036585,
+              30.646763
+            ],
+            [
+              79.0401,
+              30.6544
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "slope": 50.0,
+        "rainfall_intensity": 90,
+        "lithology": 88,
+        "distance_to_drainage": 80,
+        "land_cover": 72,
+        "elevation": 78.7
+      },
+      "_source": "NRSC Landslide Atlas hotspot: Gaurikund-Kedarnath (factors are Atlas-informed proxies)",
+      "_physical": {
+        "elevation_meters": 2143.6,
+        "slope_degrees": 4.12
+      }
+    },
+    {
+      "id": "uk-landslide-003",
+      "hazardType": "landslide",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4589,
+              30.7292
+            ],
+            [
+              78.455385,
+              30.736837
+            ],
+            [
+              78.4469,
+              30.74
+            ],
+            [
+              78.438415,
+              30.736837
+            ],
+            [
+              78.4349,
+              30.7292
+            ],
+            [
+              78.438415,
+              30.721563
+            ],
+            [
+              78.4469,
+              30.7184
+            ],
+            [
+              78.455385,
+              30.721563
+            ],
+            [
+              78.4589,
+              30.7292
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "slope": 50.0,
+        "rainfall_intensity": 80,
+        "lithology": 85,
+        "distance_to_drainage": 65,
+        "land_cover": 75,
+        "elevation": 80.3
+      },
+      "_source": "NRSC Landslide Atlas hotspot: Uttarkashi (factors are Atlas-informed proxies)",
+      "_physical": {
+        "elevation_meters": 2275.2,
+        "slope_degrees": 2.58
+      }
+    },
+    {
+      "id": "uk-cloudburst-001",
+      "hazardType": "cloudburst",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Kedarnath catchment",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.0779,
+              30.735
+            ],
+            [
+              79.074678,
+              30.742
+            ],
+            [
+              79.0669,
+              30.7449
+            ],
+            [
+              79.059122,
+              30.742
+            ],
+            [
+              79.0559,
+              30.735
+            ],
+            [
+              79.059122,
+              30.728
+            ],
+            [
+              79.0669,
+              30.7251
+            ],
+            [
+              79.074678,
+              30.728
+            ],
+            [
+              79.0779,
+              30.735
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 95,
+        "slope": 60.0,
+        "catchment_area": 75,
+        "land_cover": 60,
+        "elevation": 89.3
+      },
+      "_source": "Documented cloudburst catchment: Kedarnath catchment",
+      "_physical": {
+        "elevation_meters": 2699.4,
+        "slope_degrees": 0.59
+      }
+    },
+    {
+      "id": "uk-cloudburst-002",
+      "hazardType": "cloudburst",
+      "stateCode": "Uttarakhand",
+      "districtCode": "Uttarkashi (Assi Ganga)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.431,
+              30.78
+            ],
+            [
+              78.427778,
+              30.787
+            ],
+            [
+              78.42,
+              30.7899
+            ],
+            [
+              78.412222,
+              30.787
+            ],
+            [
+              78.409,
+              30.78
+            ],
+            [
+              78.412222,
+              30.773
+            ],
+            [
+              78.42,
+              30.7701
+            ],
+            [
+              78.427778,
+              30.773
+            ],
+            [
+              78.431,
+              30.78
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "rainfall_intensity": 88,
+        "slope": 60.0,
+        "catchment_area": 70,
+        "land_cover": 62,
+        "elevation": 85.1
+      },
+      "_source": "Documented cloudburst catchment: Uttarkashi (Assi Ganga)",
+      "_physical": {
+        "elevation_meters": 2120.3,
+        "slope_degrees": 1.73
+      }
+    },
+    {
+      "id": "od-coastal-001",
+      "hazardType": "coastal_erosion",
+      "stateCode": "Odisha",
+      "districtCode": "Satabhaya",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.952,
+              20.66
+            ],
+            [
+              86.948485,
+              20.667637
+            ],
+            [
+              86.94,
+              20.6708
+            ],
+            [
+              86.931515,
+              20.667637
+            ],
+            [
+              86.928,
+              20.66
+            ],
+            [
+              86.931515,
+              20.652363
+            ],
+            [
+              86.94,
+              20.6492
+            ],
+            [
+              86.948485,
+              20.652363
+            ],
+            [
+              86.952,
+              20.66
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "shoreline_change_rate": 98,
+        "elevation": 81.3,
+        "wave_energy": 78,
+        "land_cover": 55,
+        "slope": 0.2
+      },
+      "_source": "Odisha coastal-erosion hotspot: Satabhaya (Kendrapara)",
+      "_physical": {
+        "elevation_meters": 9.1,
+        "slope_degrees": 0.06
+      }
+    },
+    {
+      "id": "od-coastal-002",
+      "hazardType": "coastal_erosion",
+      "stateCode": "Odisha",
+      "districtCode": "Pentha",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.792,
+              20.73
+            ],
+            [
+              86.788485,
+              20.737637
+            ],
+            [
+              86.78,
+              20.7408
+            ],
+            [
+              86.771515,
+              20.737637
+            ],
+            [
+              86.768,
+              20.73
+            ],
+            [
+              86.771515,
+              20.722363
+            ],
+            [
+              86.78,
+              20.7192
+            ],
+            [
+              86.788485,
+              20.722363
+            ],
+            [
+              86.792,
+              20.73
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "shoreline_change_rate": 92,
+        "elevation": 87.5,
+        "wave_energy": 78,
+        "land_cover": 55,
+        "slope": 0.0
+      },
+      "_source": "Odisha coastal-erosion hotspot: Pentha (Kendrapara)",
+      "_physical": {
+        "elevation_meters": 5.0,
+        "slope_degrees": 0.0
+      }
+    },
+    {
+      "id": "od-coastal-003",
+      "hazardType": "coastal_erosion",
+      "stateCode": "Odisha",
+      "districtCode": "Paradip coast",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.622,
+              20.26
+            ],
+            [
+              86.618485,
+              20.267637
+            ],
+            [
+              86.61,
+              20.2708
+            ],
+            [
+              86.601515,
+              20.267637
+            ],
+            [
+              86.598,
+              20.26
+            ],
+            [
+              86.601515,
+              20.252363
+            ],
+            [
+              86.61,
+              20.2492
+            ],
+            [
+              86.618485,
+              20.252363
+            ],
+            [
+              86.622,
+              20.26
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "shoreline_change_rate": 85,
+        "elevation": 87.5,
+        "wave_energy": 78,
+        "land_cover": 55,
+        "slope": 0.0
+      },
+      "_source": "Odisha coastal-erosion hotspot: Paradip coast",
+      "_physical": {
+        "elevation_meters": 5.0,
+        "slope_degrees": 0.0
+      }
+    },
+    {
+      "id": "od-coastal-004",
+      "hazardType": "coastal_erosion",
+      "stateCode": "Odisha",
+      "districtCode": "Puri beachfront",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.842,
+              19.8
+            ],
+            [
+              85.838485,
+              19.807637
+            ],
+            [
+              85.83,
+              19.8108
+            ],
+            [
+              85.821515,
+              19.807637
+            ],
+            [
+              85.818,
+              19.8
+            ],
+            [
+              85.821515,
+              19.792363
+            ],
+            [
+              85.83,
+              19.7892
+            ],
+            [
+              85.838485,
+              19.792363
+            ],
+            [
+              85.842,
+              19.8
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "shoreline_change_rate": 80,
+        "elevation": 87.5,
+        "wave_energy": 78,
+        "land_cover": 55,
+        "slope": 0.0
+      },
+      "_source": "Odisha coastal-erosion hotspot: Puri beachfront",
+      "_physical": {
+        "elevation_meters": 5.0,
+        "slope_degrees": 0.0
+      }
+    },
+    {
+      "id": "od-coastal-005",
+      "hazardType": "coastal_erosion",
+      "stateCode": "Odisha",
+      "districtCode": "Konark coast",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.102,
+              19.89
+            ],
+            [
+              86.098485,
+              19.897637
+            ],
+            [
+              86.09,
+              19.9008
+            ],
+            [
+              86.081515,
+              19.897637
+            ],
+            [
+              86.078,
+              19.89
+            ],
+            [
+              86.081515,
+              19.882363
+            ],
+            [
+              86.09,
+              19.8792
+            ],
+            [
+              86.098485,
+              19.882363
+            ],
+            [
+              86.102,
+              19.89
+            ]
+          ]
+        ]
+      },
+      "factors": {
+        "shoreline_change_rate": 75,
+        "elevation": 87.5,
+        "wave_energy": 78,
+        "land_cover": 55,
+        "slope": 0.0
+      },
+      "_source": "Odisha coastal-erosion hotspot: Konark coast",
+      "_physical": {
+        "elevation_meters": 5.0,
+        "slope_degrees": 0.0
+      }
+    }
+  ]
+}

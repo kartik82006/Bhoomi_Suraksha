@@ -1,0 +1,9 @@
+{
+  "_comment": "Synthetic fixture standing in for NDEM (National Database for Emergency Management) historic disaster-event ingestion (Phase 1/5). Not real event data.",
+  "events": [
+    { "id": "evt-1", "habitationId": "hab-1", "hazardType": "landslide", "eventDate": "2023-08-14", "severity": 80, "source": "NDEM" },
+    { "id": "evt-2", "habitationId": "hab-1", "hazardType": "landslide", "eventDate": "2015-07-02", "severity": 55, "source": "NDEM" },
+    { "id": "evt-3", "habitationId": "hab-2", "hazardType": "flood", "eventDate": "2021-09-20", "severity": 45, "source": "NDEM" },
+    { "id": "evt-4", "habitationId": "hab-3", "hazardType": "cloudburst", "eventDate": "2019-06-30", "severity": 30, "source": "NDEM" }
+  ]
+}
