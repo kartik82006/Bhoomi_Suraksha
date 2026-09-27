@@ -14,6 +14,8 @@ import { translateRouter } from "./routes/translate.js";
 
 export const app = express();
 
+app.set("trust proxy", 1);
+
 const defaultOrigins = new Set([
   "http://localhost:5173",
   "http://127.0.0.1:5173",
