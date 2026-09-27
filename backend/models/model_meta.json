@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "trained_at": "2026-09-27T17:21:15.917420+00:00",
+  "winning_model": "XGBoost",
+  "features": [
+    "catchment_area",
+    "distance_to_drainage",
+    "elevation",
+    "land_cover",
+    "lithology",
+    "rainfall_intensity",
+    "shoreline_change_rate",
+    "slope",
+    "soil_permeability",
+    "wave_energy",
+    "is_flood",
+    "is_landslide",
+    "is_cloudburst",
+    "is_coastal_erosion"
+  ],
+  "num_features": 14,
+  "hazard_types": [
+    "flood",
+    "landslide",
+    "cloudburst",
+    "coastal_erosion"
+  ],
+  "sample_counts": {
+    "total": 86,
+    "positive": 23,
+    "negative": 63
+  },
+  "cv_folds": 5,
+  "winning_metrics": {
+    "auc_roc_mean": 0.8173076923076923,
+    "auc_roc_std": 0.11201783224247125,
+    "f1_macro_mean": 0.7201949161949163,
+    "accuracy_mean": 0.7549019607843137,
+    "kappa_mean": 0.4624017259220178
+  },
+  "onnx_file": "susceptibility.onnx"
+}

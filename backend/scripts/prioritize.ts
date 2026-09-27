@@ -10,8 +10,8 @@ import type { HazardType } from "../src/types.js";
 
 const BACKEND_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PROCESSED_DIR = process.env.PROCESSED_DATA_PATH
-  ? path.resolve(BACKEND_ROOT, "..", process.env.PROCESSED_DATA_PATH)
-  : path.resolve(BACKEND_ROOT, "../data/processed");
+  ? path.resolve(BACKEND_ROOT, process.env.PROCESSED_DATA_PATH)
+  : path.resolve(BACKEND_ROOT, "data/processed");
 
 const HAZARD_TYPES: HazardType[] = ["landslide", "flood", "coastal_erosion", "cloudburst"];
 const EXPOSURE_BUFFER_METERS = 2000;

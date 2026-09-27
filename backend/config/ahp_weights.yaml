@@ -1,0 +1,40 @@
+# AHP (Analytic Hierarchy Process) weighted-overlay factor weights, per hazard
+# type. Each hazard's factor weights must sum to 1.0 (enforced by
+# backend/src/scoring/ahp.ts). Factor scores themselves are expected
+# pre-normalized to 0-100 by the ingestion pipeline (Phase 1) before this
+# config is applied.
+#
+# Weights below are illustrative expert-judgement starting points (standard
+# factors used in Indian landslide/flood/coastal/cloudburst susceptibility
+# studies), not a calibrated regional model — recalibrating them against a
+# real inventory (e.g. the NRSC Landslide Atlas) is future work.
+
+landslide:
+  factors:
+    slope: 0.35
+    rainfall_intensity: 0.25
+    lithology: 0.20
+    distance_to_drainage: 0.10
+    land_cover: 0.10
+
+flood:
+  factors:
+    rainfall_intensity: 0.30
+    distance_to_drainage: 0.25
+    elevation: 0.20
+    land_cover: 0.15
+    soil_permeability: 0.10
+
+coastal_erosion:
+  factors:
+    shoreline_change_rate: 0.40
+    elevation: 0.25
+    wave_energy: 0.20
+    land_cover: 0.15
+
+cloudburst:
+  factors:
+    rainfall_intensity: 0.40
+    slope: 0.25
+    catchment_area: 0.20
+    land_cover: 0.15

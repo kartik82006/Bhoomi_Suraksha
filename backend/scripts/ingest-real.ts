@@ -12,8 +12,8 @@ import type { RawDisasterEvent, RawHabitation, RawSite, RawZone } from "../src/i
 const BACKEND_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const RAW_DIR = path.join(BACKEND_ROOT, "fixtures/raw/uttarakhand");
 const PROCESSED_DIR = process.env.PROCESSED_DATA_PATH
-  ? path.resolve(BACKEND_ROOT, "..", process.env.PROCESSED_DATA_PATH)
-  : path.resolve(BACKEND_ROOT, "../data/processed");
+  ? path.resolve(BACKEND_ROOT, process.env.PROCESSED_DATA_PATH)
+  : path.resolve(BACKEND_ROOT, "data/processed");
 const MANIFEST_PATH = path.join(PROCESSED_DIR, "manifest.json");
 
 const { skipped: zonesSkipped } = ingestSource<{ zones: RawZone[] }>({

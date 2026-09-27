@@ -1,6 +1,8 @@
 data/raw/
 data/processed/
 .env
+.env.*
+!.env.example
 .DS_Store
 
 # stray raw source downloads (keep large binaries out of git; real fixtures live
@@ -20,3 +22,18 @@ __pycache__/
 *.pyc
 *.bak
 *.ses
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*

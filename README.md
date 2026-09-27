@@ -690,6 +690,182 @@ bhoomi-suraksha/
 
 ---
 
+## 11. Production Deployment (Railway)
+
+### Architecture Overview
+
+```
+Browser (HTTPS)
+    │
+    ▼
+Railway Frontend Service (React + Vite + Nginx)
+    │  VITE_API_BASE_URL=https://<backend-domain>/api
+    ▼
+Railway Backend Service (Express + TypeScript + Prisma)
+    │  DATABASE_URL=postgresql://...
+    ▼
+Railway PostgreSQL + PostGIS Database
+```
+
+### Prerequisites
+
+- Railway account
+- GitHub repository connected to Railway
+- PostgreSQL database with PostGIS extension (Railway provides this)
+
+### Deployment Order
+
+**1. Create PostGIS Database**
+- In Railway dashboard: New → Database → Add PostgreSQL
+- Enable PostGIS extension (run `CREATE EXTENSION postgis;` in Railway's query tab or via migration)
+
+**2. Deploy Backend Service**
+- New → Service → GitHub Repo → Select this repo
+- **Root Directory**: `/backend`
+- **Dockerfile**: `backend/Dockerfile` (auto-detected)
+- **Environment Variables** (set in Railway dashboard → Variables):
+  ```
+  NODE_ENV=production
+  DATABASE_URL=<auto-provided by Railway Postgres service>
+  CORS_ORIGIN=https://<your-frontend-domain>.railway.app
+  JWT_ACCESS_SECRET=<generate: openssl rand -base64 32>
+  JWT_REFRESH_SECRET=<generate: openssl rand -base64 32>
+  AHP_WEIGHTS_FILE=./config/ahp_weights.yaml
+  ML_MODEL_PATH=./models/susceptibility.onnx
+  ENABLE_ML_SUSCEPTIBILITY=true
+  ML_BLEND_WEIGHT=0.6
+  ```
+- Deploy and wait for build to complete
+- Railway will run `prisma migrate deploy` automatically via the Dockerfile CMD
+- Verify health: `GET https://<backend-domain>/api/health` → `{ "status": "ok" }`
+
+**3. Deploy Frontend Service**
+- New → Service → GitHub Repo → Select this repo
+- **Root Directory**: `/frontend`
+- **Dockerfile**: `frontend/Dockerfile` (auto-detected)
+- **Environment Variables** (set BEFORE deploy - Vite needs it at build time):
+  ```
+  VITE_API_BASE_URL=https://<your-backend-domain>.railway.app/api
+  ```
+- Deploy
+
+**4. Connect Frontend → Backend**
+- Copy the frontend service public URL (e.g., `https://bhoomi-frontend.railway.app`)
+- Update backend `CORS_ORIGIN` to include this URL:
+  ```
+  CORS_ORIGIN=https://bhoomi-frontend.railway.app
+  ```
+- Redeploy backend
+
+**5. Verify**
+- Open frontend URL
+- Check browser DevTools → Network → API calls go to backend domain
+- Test login with demo credentials
+- Verify map loads and data appears
+
+### Environment Variables Reference
+
+#### Backend (Railway Service Variables)
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `NODE_ENV` | Yes | `production` |
+| `DATABASE_URL` | Yes | Provided by Railway Postgres service |
+| `CORS_ORIGIN` | Yes | Comma-separated frontend URLs (e.g., `https://app.railway.app,https://staging.railway.app`) |
+| `JWT_ACCESS_SECRET` | Yes | 32+ char random string (`openssl rand -base64 32`) |
+| `JWT_REFRESH_SECRET` | Yes | Different 32+ char random string |
+| `JWT_ACCESS_TTL` | No | Access token TTL in seconds (default: 900) |
+| `JWT_REFRESH_TTL` | No | Refresh token TTL in seconds (default: 1209600) |
+| `PASSWORD_HASH_ALGO` | No | `argon2` or `bcrypt` (default: argon2) |
+| `AHP_WEIGHTS_FILE` | Yes | `./config/ahp_weights.yaml` (bundled in image) |
+| `ML_MODEL_PATH` | Yes | `./models/susceptibility.onnx` (bundled in image) |
+| `ENABLE_ML_SUSCEPTIBILITY` | No | `true`/`false` (default: true) |
+| `ML_BLEND_WEIGHT` | No | ML vs AHP blend weight 0-1 (default: 0.6) |
+| `SARVAM_API_KEY` | No | For Hindi translation toggle |
+| `REDIS_URL` | No | If using Redis cache |
+| `CACHE_ENABLED` | No | `true`/`false` (default: false) |
+
+#### Frontend (Railway Service Variables - Build Time!)
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `VITE_API_BASE_URL` | **Yes** | Full backend API URL (e.g., `https://backend.railway.app/api`) |
+
+> **Critical**: `VITE_API_BASE_URL` is a **Vite build-time variable**. It must be set in the Railway frontend service **before** deploying. Changing it requires a rebuild.
+
+### Local Development (Unchanged)
+
+```bash
+# Terminal 1: Database
+docker compose up -d postgres
+
+# Terminal 2: Backend
+cd backend
+cp .env.example .env
+# Edit .env if needed
+npm install
+npx prisma migrate deploy
+npm run ingest
+npm run score
+npm run prioritize
+npm run seed:users
+npm run dev
+
+# Terminal 3: Frontend
+cd frontend
+cp .env.example .env
+npm install
+npm run dev
+```
+
+Frontend at `http://localhost:5173`, Backend at `http://localhost:8000`, API docs at `http://localhost:8000/api/docs`.
+
+### Database Migrations
+
+Production uses `prisma migrate deploy` (runs automatically in Dockerfile CMD).
+Never use `prisma migrate dev` or `prisma db push` in production.
+
+To create a new migration locally:
+```bash
+cd backend
+npx prisma migrate dev --name migration_name
+```
+Commit the generated migration folder to git.
+
+### PostGIS Requirement
+
+The Prisma schema uses `Unsupported("geometry(Point,4326)")` and `Unsupported("geometry(Polygon,4326)")`.
+The production PostgreSQL **must** have PostGIS enabled.
+
+Railway's `postgis/postgis:16-3.4` image has it pre-enabled. If using a different provider:
+```sql
+CREATE EXTENSION IF NOT EXISTS postgis;
+```
+
+The migration `20260903113937_init` already creates GiST spatial indexes.
+
+### Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Frontend shows "VITE_API_BASE_URL is not configured" | Set `VITE_API_BASE_URL` in Railway frontend service variables and redeploy |
+| Backend CORS errors | Ensure `CORS_ORIGIN` includes the exact frontend URL (no trailing slash) |
+| `prisma migrate deploy` fails | Check `DATABASE_URL` is correct and PostGIS is enabled |
+| ML model not loading | Verify `ML_MODEL_PATH=./models/susceptibility.onnx` and file exists in `backend/models/` |
+| Health check fails | Check backend logs: `npm run build` must succeed, then `node dist/index.js` |
+| Map doesn't load | Verify backend `/api/hazards` returns data; check browser console for CORS errors |
+
+### Health Check Endpoint
+
+```
+GET /api/health
+Response: { "status": "ok" }
+```
+
+Use this for Railway health checks or load balancer probes.
+
+---
+
 ## License
 
 To be decided by the team (suggest a permissive OSS license given the public-benefit purpose).

@@ -16,11 +16,11 @@ const HAZARD_TYPES: HazardType[] = ["landslide", "flood", "coastal_erosion", "cl
 
 const BACKEND_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const PROCESSED_DIR = process.env.PROCESSED_DATA_PATH
-  ? path.resolve(BACKEND_ROOT, "..", process.env.PROCESSED_DATA_PATH)
-  : path.resolve(BACKEND_ROOT, "../data/processed");
+  ? path.resolve(BACKEND_ROOT, process.env.PROCESSED_DATA_PATH)
+  : path.resolve(BACKEND_ROOT, "data/processed");
 const AHP_WEIGHTS_FILE = process.env.AHP_WEIGHTS_FILE
-  ? path.resolve(BACKEND_ROOT, "..", process.env.AHP_WEIGHTS_FILE)
-  : path.resolve(BACKEND_ROOT, "../config/ahp_weights.yaml");
+  ? path.resolve(BACKEND_ROOT, process.env.AHP_WEIGHTS_FILE)
+  : path.resolve(BACKEND_ROOT, "config/ahp_weights.yaml");
 
 interface ZoneFactors {
   hazardType: HazardType;

@@ -1,8 +1,10 @@
 import type { PrioritizationItem, Session, Summary } from "./types";
 
-const API_BASE =
-  import.meta.env.VITE_API_BASE_URL ??
-  "http://localhost:8000/api";
+const API_BASE = import.meta.env.VITE_API_BASE_URL;
+
+if (!API_BASE) {
+  throw new Error("VITE_API_BASE_URL is not configured. Set it in your environment (e.g., VITE_API_BASE_URL=http://localhost:8000/api for local development).");
+}
 
   
 export async function login(email: string, password: string): Promise<Session> {

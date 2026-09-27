@@ -8,11 +8,11 @@ import type { RawZone } from "../src/ingest/types.js";
 
 const BACKEND_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PROCESSED_DIR = process.env.PROCESSED_DATA_PATH
-  ? path.resolve(BACKEND_ROOT, "..", process.env.PROCESSED_DATA_PATH)
-  : path.resolve(BACKEND_ROOT, "../data/processed");
+  ? path.resolve(BACKEND_ROOT, process.env.PROCESSED_DATA_PATH)
+  : path.resolve(BACKEND_ROOT, "data/processed");
 const AHP_WEIGHTS_FILE = process.env.AHP_WEIGHTS_FILE
-  ? path.resolve(BACKEND_ROOT, "..", process.env.AHP_WEIGHTS_FILE)
-  : path.resolve(BACKEND_ROOT, "../config/ahp_weights.yaml");
+  ? path.resolve(BACKEND_ROOT, process.env.AHP_WEIGHTS_FILE)
+  : path.resolve(BACKEND_ROOT, "config/ahp_weights.yaml");
 
 const enableMl = process.env.ENABLE_ML_SUSCEPTIBILITY === "true";
 const mlWeight = parseFloat(process.env.ML_BLEND_WEIGHT || "0.6");

@@ -19,12 +19,15 @@ const defaultOrigins = new Set([
   "http://127.0.0.1:5173",
 ]);
 
-const configuredOrigins = process.env.CORS_ORIGIN?.split(",").map((origin) => origin.trim()).filter(Boolean);
-const allowedOrigins = configuredOrigins ?? [...defaultOrigins];
+const configuredOrigins = process.env.CORS_ORIGIN
+  ? process.env.CORS_ORIGIN.split(",").map((origin) => origin.trim()).filter(Boolean)
+  : [];
+const allowedOrigins = configuredOrigins.length > 0 ? configuredOrigins : [...defaultOrigins];
 
 app.use(
   cors({
     origin: allowedOrigins,
+    credentials: true,
   }),
 );
 app.use(express.json());

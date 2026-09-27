@@ -5,8 +5,8 @@ import { createRequire } from "node:module";
 import type { HazardType } from "../types.js";
 
 const require = createRequire(import.meta.url);
+// BACKEND_ROOT is the directory containing package.json (i.e., backend/)
 const BACKEND_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
-const REPO_ROOT = path.resolve(BACKEND_ROOT, "..");
 
 // Canonical feature names and ordering matching ml/train.py
 const DEFAULT_GEO_FACTORS = [
@@ -50,7 +50,7 @@ let ortModule: any = null;
 export function getModelMetadata(): ModelMetadata | null {
   if (modelMetadata) return modelMetadata;
 
-  const metaPath = path.resolve(REPO_ROOT, "models", "model_meta.json");
+  const metaPath = path.resolve(BACKEND_ROOT, "models", "model_meta.json");
   if (!fs.existsSync(metaPath)) {
     return null;
   }
@@ -76,7 +76,7 @@ async function getInferenceSession(): Promise<any> {
   const modelRelativePath = process.env.ML_MODEL_PATH || "./models/susceptibility.onnx";
   const modelPath = path.isAbsolute(modelRelativePath)
     ? modelRelativePath
-    : path.resolve(REPO_ROOT, modelRelativePath);
+    : path.resolve(BACKEND_ROOT, modelRelativePath);
 
   if (!fs.existsSync(modelPath)) {
     console.warn(
