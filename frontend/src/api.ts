@@ -1,7 +1,10 @@
 import type { PrioritizationItem, Session, Summary } from "./types";
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8000/api";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL ??
+  "http://localhost:8000/api";
 
+  
 export async function login(email: string, password: string): Promise<Session> {
   const res = await fetch(`${API_BASE}/auth/login`, {
     method: "POST",
