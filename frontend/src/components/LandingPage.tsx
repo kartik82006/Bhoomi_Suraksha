@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { BrandMark } from "./BrandMark";
-import rescueImage from "../../../img/national-disaster-response-force-ndrf-personnel-rescue-550nw-14139529e.jpeg";
-import hazardMapImage from "../../../img/8010.jpg.jxl";
-import controlRoomImage from "../../../img/BMC-to-set-up-disaster-control-rooms-at-hospitals.jpg";
-import aerialFloodImage from "../../../img/floods_012.jpg";
-import reliefCampImage from "../../../img/images.jpeg";
+import rescueImage from "../assets/img/national-disaster-response-force-ndrf-personnel-rescue-550nw-14139529e.jpeg";
+import hazardMapImage from "../assets/img/8010.jpg.jxl";
+import controlRoomImage from "../assets/img/BMC-to-set-up-disaster-control-rooms-at-hospitals.jpg";
+import aerialFloodImage from "../assets/img/floods_012.jpg";
+import reliefCampImage from "../assets/img/images.jpeg";
 
 interface CarouselImage {
   src: string;

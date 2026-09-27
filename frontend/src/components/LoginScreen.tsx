@@ -2,7 +2,7 @@ import { useState } from "react";
 import { login } from "../api";
 import type { Session } from "../types";
 import { BrandMark } from "./BrandMark";
-import loginBackground from "../../../img/floods_012.jpg";
+import loginBackground from "../assets/img/floods_012.jpg";
 
 const DEMO_ACCESS = [
   {
